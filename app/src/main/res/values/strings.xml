@@ -5,4 +5,1615 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="words">
+        <item>1.abate</item>
+        <item>2.abdicate</item>
+        <item>3.aberrant</item>
+        <item>4.abeyance</item>
+        <item>5.abject</item>
+        <item>6.abjure</item>
+        <item>7.abscission</item>
+        <item>8.abscond</item>
+        <item>9.abstemious</item>
+        <item>10.abstinence</item>
+        <item>11.abysmal</item>
+        <item>12.accretion</item>
+        <item>13.accrue</item>
+        <item>14.adamant</item>
+        <item>15.adjunct</item>
+        <item>16.admonish</item>
+        <item>17.adulterate</item>
+        <item>18.aesthetic</item>
+        <item>19.affected</item>
+        <item>20.affinity</item>
+        <item>21.aggrandize</item>
+        <item>22.aggregate</item>
+        <item>23.alacrity</item>
+        <item>24.alchemy</item>
+        <item>25.allay</item>
+        <item>26.alleviate</item>
+        <item>27.alloy</item>
+        <item>28.allure</item>
+        <item>29.amalgamate</item>
+        <item>30.ambiguous</item>
+        <item>31.ambivalence</item>
+        <item>32.ambrosia</item>
+        <item>33.ameliorate</item>
+        <item>34.amenable</item>
+        <item>35.amenity</item>
+        <item>36.amulet</item>
+        <item>37.anachronism</item>
+        <item>38.analgesic</item>
+        <item>39.analogous</item>
+        <item>40.anarchy</item>
+        <item>41.anodyne</item>
+        <item>42.anomalous</item>
+        <item>43.antecedent</item>
+        <item>44.antediluvian</item>
+        <item>45.antipathy</item>
+        <item>46.apathy</item>
+        <item>47.apex</item>
+        <item>48.apogee</item>
+        <item>49.apothegm</item>
+        <item>50.appease</item>
+        <item>51.appellation</item>
+        <item>52.apposite</item>
+        <item>53.apprise</item>
+        <item>54.approbation</item>
+        <item>55.appropriate</item>
+        <item>56.apropos</item>
+        <item>57.arabesque</item>
+        <item>58.archeology</item>
+        <item>59.ardor</item>
+        <item>60.arduous</item>
+        <item>61.argot</item>
+        <item>62.arrest</item>
+        <item>63.artifact</item>
+        <item>64.artless</item>
+        <item>65.ascetic</item>
+        <item>66.asperity</item>
+        <item>67.aspersion</item>
+        <item>68.assiduous</item>
+        <item>69.assuage</item>
+        <item>70.aitement</item>
+        <item>71.asylum</item>
+        <item>72.atavism</item>
+        <item>73.attenuate</item>
+        <item>74.audacious</item>
+        <item>75.austere</item>
+        <item>76.autonomous</item>
+        <item>77.avarice</item>
+        <item>78.aver</item>
+        <item>79.avocation</item>
+        <item>80.avuncular</item>
+        <item>81.axiomatic</item>
+        <item>82.bacchanalian</item>
+        <item>83.banal</item>
+        <item>84.banter</item>
+        <item>85.bard</item>
+        <item>86.bawdy</item>
+        <item>87.beatify</item>
+        <item>88.bedizen</item>
+        <item>89.behemoth</item>
+        <item>90.belie</item>
+        <item>91.beneficent</item>
+        <item>92.bifurcate</item>
+        <item>93.blandishment</item>
+        <item>94.blasé</item>
+        <item>95.bolster</item>
+        <item>96.bombastic</item>
+        <item>97.boorish</item>
+        <item>98.bovine</item>
+        <item>99.brazen</item>
+        <item>100.broach</item>
+        <item>101.bucolic</item>
+        <item>102.burgeon</item>
+        <item>103.burnish</item>
+        <item>104.buttress</item>
+        <item>105.cacophonous</item>
+        <item>106.cadge</item>
+        <item>107.callous</item>
+        <item>108.calumny</item>
+        <item>109.canard</item>
+        <item>110.canon</item>
+        <item>111.cant</item>
+        <item>112.cantankerous</item>
+        <item>113.capricious</item>
+        <item>114.captious</item>
+        <item>115.cardinal</item>
+        <item>116.carnal</item>
+        <item>117.carping</item>
+        <item>118.cartography</item>
+        <item>119.caste</item>
+        <item>120.castigation</item>
+        <item>121.cataclysm</item>
+        <item>122.catalyst</item>
+        <item>123.categorical</item>
+        <item>124.caucus</item>
+        <item>125.causal</item>
+        <item>126.caustic</item>
+        <item>127.celestial</item>
+        <item>128.centrifugal</item>
+        <item>129.centripetal</item>
+        <item>130.champion</item>
+        <item>131.chasten</item>
+        <item>132.chicanery</item>
+        <item>133.chivalry</item>
+        <item>134.churlish</item>
+        <item>135.circuitous</item>
+        <item>136.clairvoyant</item>
+        <item>137.clamor</item>
+        <item>138.clique</item>
+        <item>139.cloister</item>
+        <item>140.coagulate</item>
+        <item>141.coalesce</item>
+        <item>142.coda</item>
+        <item>143.codify</item>
+        <item>144.cognizant</item>
+        <item>145.collage</item>
+        <item>146.commensurate</item>
+        <item>147.compendium</item>
+        <item>148.complacent</item>
+        <item>149.complaisant</item>
+        <item>150.complement</item>
+        <item>151.compliant</item>
+        <item>152.compunction</item>
+        <item>153.concave</item>
+        <item>154.conciliatory</item>
+        <item>155.concoct</item>
+        <item>156.concomitant</item>
+        <item>157.condone</item>
+        <item>158.confound</item>
+        <item>159.congenial</item>
+        <item>160.conjugal</item>
+        <item>161.connoisseur</item>
+        <item>162.conscript</item>
+        <item>163.consecrate</item>
+        <item>164.contend</item>
+        <item>165.contentious</item>
+        <item>166.contiguous</item>
+        <item>167.continence</item>
+        <item>168.contrite</item>
+        <item>169.contumacious</item>
+        <item>170.conundrum</item>
+        <item>171.convention</item>
+        <item>172.converge</item>
+        <item>173.convex</item>
+        <item>174.convivial</item>
+        <item>175.convoluted</item>
+        <item>176.copious</item>
+        <item>177.coquette</item>
+        <item>178.cornucopia</item>
+        <item>179.cosmology</item>
+        <item>180.covert</item>
+        <item>181.covetous</item>
+        <item>182.cozen</item>
+        <item>183.craven</item>
+        <item>184.credence</item>
+        <item>185.credo</item>
+        <item>186.daunt</item>
+        <item>187.dearth</item>
+        <item>188.debauchery</item>
+        <item>189.decorum</item>
+        <item>190.defame</item>
+        <item>191.default</item>
+        <item>192.deference</item>
+        <item>193.defunct</item>
+        <item>194.delineate</item>
+        <item>195.demographic</item>
+        <item>196.demotic</item>
+        <item>19.demur</item>
+        <item>198.denigrate</item>
+        <item>199.denizen</item>
+        <item>200.denouement</item>
+        <item>201.deride</item>
+        <item>202.derivative</item>
+        <item>203.desiccate</item>
+        <item>204.desuetude</item>
+        <item>205.desultory</item>
+        <item>206.deterrent</item>
+        <item>207.detraction</item>
+        <item>208.diaphanous</item>
+        <item>209.diatribe</item>
+        <item>210.dichotomy</item>
+        <item>211.diffidence</item>
+        <item>212.diffuse</item>
+        <item>213.digression</item>
+        <item>214.dirge</item>
+        <item>215.disabuse</item>
+        <item>216.discerning</item>
+        <item>217.discomfit</item>
+        <item>218.discordant</item>
+        <item>219.discredit</item>
+        <item>220.discrepancy</item>
+        <item>221.discrete</item>
+        <item>222.discretion</item>
+        <item>223.disingenuous</item>
+        <item>224.disinterested</item>
+        <item>225.disjointed</item>
+        <item>226.dismiss</item>
+        <item>227.disparage</item>
+        <item>228.disparate</item>
+        <item>229.dissemble</item>
+        <item>230.disseminate</item>
+        <item>231.dissident</item>
+        <item>232.dissolution</item>
+        <item>233.dissonance</item>
+        <item>234.distend</item>
+        <item>235distill</item>
+        <item>236distrait</item>
+        <item>237.diverge</item>
+        <item>238.divest</item>
+        <item>239.divulge</item>
+        <item>240.doctrinaire</item>
+        <item>241.document</item>
+        <item>242.doggerel</item>
+        <item>243.dogmatic</item>
+        <item>244.dormant</item>
+        <item>245.dross</item>
+        <item>246.dupe</item>
+        <item>247.ebullient</item>
+        <item>248.eclectic</item>
+        <item>249.effervescence</item>
+        <item>250.effete</item>
+        <item>251.efficacy</item>
+        <item>252.effrontery</item>
+        <item>253.egoism</item>
+        <item>254.egotistical</item>
+        <item>255.elegy</item>
+        <item>256.elicit</item>
+        <item>257.elixir</item>
+        <item>258.Elysian</item>
+        <item>259.emaciated</item>
+        <item>260.embellish</item>
+        <item>261.emollient</item>
+        <item>262.empirical</item>
+        <item>263.emulate</item>
+        <item>264.encomium</item>
+        <item>265.endemic</item>
+        <item>266.enervate</item>
+        <item>267.engender</item>
+        <item>268.enhance</item>
+        <item>269.entomology</item>
+        <item>270.enunciate</item>
+        <item>271.ephemeral</item>
+        <item>272.epistemology</item>
+        <item>273.equable</item>
+        <item>274.equanimity</item>
+        <item>275.equivocate</item>
+        <item>276.errant</item>
+        <item>277.erudite</item>
+        <item>278.esoteric</item>
+        <item>279.essay</item>
+        <item>280.estimable</item>
+        <item>281.ethnocentric</item>
+        <item>282.etiology</item>
+        <item>283.etymology</item>
+        <item>284.eugenics</item>
+        <item>285.eulogy</item>
+        <item>286.euphemism</item>
+        <item>287.euphoria</item>
+        <item>288.euthanasia</item>
+        <item>289.evince</item>
+        <item>290.evocative</item>
+        <item>291.exacerbate</item>
+        <item>292.exact</item>
+        <item>293.exculpate</item>
+        <item>294.execrable</item>
+        <item>295.exhort</item>
+        <item>296.exigency</item>
+        <item>297.existential</item>
+        <item>298.exorcise</item>
+        <item>299.expatiate</item>
+        <item>300.expatriate</item>
+        <item>301.expiate</item>
+        <item>302.explicate</item>
+        <item>303.expository</item>
+        <item>304.extant</item>
+        <item>extemporaneous</item>
+        <item>306.extirpate</item>
+        <item>307.extraneous</item>
+        <item>308.extrapolation</item>
+        <item>309.extrinsic</item>
+        <item>310.facetious</item>
+        <item>311.facilitate</item>
+        <item>312.factotum</item>
+        <item>313.fallacious</item>
+        <item>314.fallow</item>
+        <item>315.fatuous</item>
+        <item>316.fauna</item>
+        <item>317.fawning</item>
+        <item>318.felicitous</item>
+        <item>319.feral</item>
+        <item>320.fervor</item>
+        <item>321.fetid</item>
+        <item>322.fetter</item>
+        <item>323.fiat</item>
+        <item>324.fidelity</item>
+        <item>325.filibuster</item>
+        <item>326.finesse</item>
+        <item>327.fissure</item>
+        <item>328.flag</item>
+        <item>329.fledgling</item>
+        <item>330.flora</item>
+        <item>331.florid</item>
+        <item>332.flourish</item>
+        <item>333.flout</item>
+        <item>334.flux</item>
+        <item>335.foment</item>
+        <item>336.forbearance</item>
+        <item>337.forestall</item>
+        <item>338.formidable</item>
+        <item>339.forswear</item>
+        <item>340.founder</item>
+        <item>341.fracas</item>
+        <item>342.fractious</item>
+        <item>343.fresco</item>
+        <item>344.frieze</item>
+        <item>345.froward</item>
+        <item>346.frugality</item>
+        <item>347.fulminate</item>
+        <item>348.fulsome</item>
+        <item>349.fusion</item>
+        <item>350.futile</item>
+        <item>351.gainsay</item>
+        <item>352.gambol</item>
+        <item>353.garrulous</item>
+        <item>354.gauche</item>
+        <item>355.geniality</item>
+        <item>356.gerrymander</item>
+        <item>357.glib</item>
+        <item>358.goad</item>
+        <item>359.gossamer</item>
+        <item>360.gouge</item>
+        <item>361.>grandiloquent</item>
+        <item>362.gregarious</item>
+        <item>363.grouse</item>
+        <item>364.guileless</item>
+        <item>365.guise</item>
+        <item>366.gullible</item>
+        <item>367.gustatory</item>
+        <item>368.halcyon</item>
+        <item>369.hallowed</item>
+        <item>370harangue</item>
+        <item>371.harrowing</item>
+        <item>372.herbivorous</item>
+        <item>373.hermetic</item>
+        <item>374.heterodox</item>
+        <item>35.hieroglyphics</item>
+        <item>376.hirsute</item>
+        <item>377.histrionic</item>
+        <item>378.homeostasis</item>
+        <item>379.homily</item>
+        <item>380.homogeneous</item>
+        <item>381.hyperbole</item>
+        <item>382.iconoclastic</item>
+        <item>383.idolatry</item>
+        <item>384.igneous</item>
+        <item>385.imbroglio</item>
+        <item>386.immutable</item>
+        <item>387.impair to</item>
+        <item>388.impassive</item>
+        <item>389.impecunious</item>
+        <item>390.impede</item>
+        <item>391.impermeable</item>
+        <item>392.imperturbable</item>
+        <item>393.impervious</item>
+        <item>394.impinge</item>
+        <item>395.implacable</item>
+        <item>396.implausible</item>
+        <item>397.implicit</item>
+        <item>398.implode</item>
+        <item>399.imprecation</item>
+        <item>400.impute</item>
+        <item>401.inadvertently</item>
+        <item>402.incarnate</item>
+        <item>403.inchoate</item>
+        <item>404.incongruity</item>
+        <item>405.inconsequential</item>
+        <item>406.incorporate</item>
+        <item>40.incursion</item>
+        <item>408.indeterminate</item>
+        <item>409.indigence</item>
+        <item>410.indolent</item>
+        <item>411.ineluctable</item>
+        <item>412.inert</item>
+        <item>413.ingenuous</item>
+        <item>414.inherent</item>
+        <item>415.innocuous</item>
+        <item>416.insensible</item>
+        <item>41.insinuate</item>
+        <item>418.insipid</item>
+        <item>419.insouciant</item>
+        <item>420.insularity</item>
+        <item>421.insuperable</item>
+        <item>422.intangible</item>
+        <item>423.interdict</item>
+        <item>424.internecine</item>
+        <item>425.interpolate</item>
+        <item>426.interregnum</item>
+        <item>427.intimate</item>
+        <item>428.intractable</item>
+        <item>429.intransigence</item>
+        <item>430.introspective</item>
+        <item>431.inundate</item>
+        <item>432.inured</item>
+        <item>433.invective</item>
+        <item>434.inveigh</item>
+        <item>435.inveigle</item>
+        <item>436.inveterate</item>
+        <item>437.invidious</item>
+        <item>438.irascible</item>
+        <item>439.irresolute</item>
+        <item>440.itinerant</item>
+        <item>441.itinerary</item>
+        <item>442.jaundiced</item>
+        <item>443.jibe</item>
+        <item>444.jocose</item>
+        <item>445.juggernaut</item>
+        <item>446.junta</item>
+        <item>447.juxtapose</item>
+        <item>448.kudos</item>
+        <item>449.labile</item>
+        <item>450.laconic</item>
+        <item>451.lambaste</item>
+        <item>452.lascivious</item>
+        <item>453.lassitude</item>
+        <item>454.latent</item>
+        <item>455.laud</item>
+        <item>456.lethargic</item>
+        <item>457.levee</item>
+        <item>458.levity</item>
+        <item>459.liberal</item>
+        <item>460.libertine</item>
+        <item>461.libido</item>
+        <item>462.Lilliputian</item>
+        <item>463.limn</item>
+        <item>464.limpid</item>
+        <item>465.linguistic</item>
+        <item>466.litany</item>
+        <item>467.literati</item>
+        <item>468.litigation</item>
+        <item>469.log</item>
+        <item>470.loquacious</item>
+        <item>471.lucid</item>
+        <item>472.lucre</item>
+        <item>473.luminous</item>
+        <item>474.lustrous</item>
+        <item>475.Machiavellian</item>
+        <item>476.machinations</item>
+        <item>477.maelstrom</item>
+        <item>478.magnanimity</item>
+        <item>479.malign</item>
+        <item>480.malinger</item>
+        <item>481.malleable</item>
+        <item>482.maverick</item>
+        <item>483.megalomania</item>
+        <item>484.menagerie</item>
+        <item>485.mendacious</item>
+        <item>486.mendicant</item>
+        <item>487.meretricious</item>
+        <item>488.mesmerize</item>
+        <item>489.metamorphosis</item>
+        <item>490.metaphysics</item>
+        <item>491.meteorological</item>
+        <item>492.meticulous</item>
+        <item>493.mettle</item>
+        <item>494.mettlesome</item>
+        <item>495.microcosm</item>
+        <item>496.militate</item>
+        <item>497.minatory</item>
+        <item>498.minuscule</item>
+        <item>499.minutia</item>
+        <item>500.misanthrope</item>
+        <item>501.miscellany</item>
+        <item>502.miscreant</item>
+        <item>503.misogynist</item>
+        <item>504.mitigate</item>
+        <item>505.mnemonic</item>
+        <item>506.modicum</item>
+        <item>507.mollify</item>
+        <item>508.monolithic</item>
+        <item>509.morose</item>
+        <item>510.motley</item>
+        <item>511.multifarious</item>
+        <item>512.mundane</item>
+        <item>513.necromancy</item>
+        <item>514.negate</item>
+        <item>515.neologism</item>
+        <item>516.neophyte</item>
+        <item>517.nexus</item>
+        <item>518.nonplussed</item>
+        <item>519.nostalgia</item>
+        <item>520.nostrum</item>
+        <item>521.nugatory</item>
+        <item>522.obdurate</item>
+        <item>523.obsequious</item>
+        <item>524.obsequy</item>
+        <item>525.obviate</item>
+        <item>526.occlude</item>
+        <item>527.occult</item>
+        <item>528.odyssey</item>
+        <item>529.officious</item>
+        <item>530.olfactory</item>
+        <item>531.oligarchy</item>
+        <item>532.onerous</item>
+        <item>533.onomatopoeia</item>
+        <item>534.opprobrium</item>
+        <item>535.ornithologist</item>
+        <item>536.oscillate</item>
+        <item>537.ostentatious</item>
+        <item>538.overweening</item>
+        <item>539.paean</item>
+        <item>540.paleontology</item>
+        <item>541.pallid</item>
+        <item>542.panegyric</item>
+        <item>543.paragon</item>
+        <item>544.partisan</item>
+        <item>545.pathological</item>
+        <item>546.patois</item>
+        <item>547.paucity</item>
+        <item>548.pedantic</item>
+        <item>549.pellucid</item>
+        <item>550.penchant</item>
+        <item>551.penury</item>
+        <item>552.peregrination</item>
+        <item>553.peremptory</item>
+        <item>554.perennial</item>
+        <item>555.perfidious</item>
+        <item>556.perfunctory</item>
+        <item>557.perigee</item>
+        <item>558.permeable</item>
+        <item>559.perturb</item>
+        <item>560.pervasive</item>
+        <item>561.petulant</item>
+        <item>562.phlegmatic</item>
+        <item>563.phoenix</item>
+        <item>564.physiognomy</item>
+        <item>565.piety</item>
+        <item>566.piquant</item>
+        <item>567.pique</item>
+        <item>568.placate</item>
+        <item>569.placid</item>
+        <item>570.plaintive</item>
+        <item>571.plasticity</item>
+        <item>572.platitude</item>
+        <item>573.platonic</item>
+        <item>574.plethora</item>
+        <item>575.plumb</item>
+        <item>576.plummet</item>
+        <item>577.plutocracy</item>
+        <item>578.porous</item>
+        <item>579.poseur</item>
+        <item>580.pragmatic</item>
+        <item>581.prate</item>
+        <item>582.prattle</item>
+        <item>583.preamble</item>
+        <item>584.precarious</item>
+        <item>585.precept</item>
+        <item>586.precipitate</item>
+        <item>587.precipitate</item>
+        <item>588.precursor</item>
+        <item>589.preempt</item>
+        <item>590.prehensile</item>
+        <item>591.premonition</item>
+        <item>592.presage</item>
+        <item>593.presumptuous</item>
+        <item>594.preternatural</item>
+        <item>595.prevaricate</item>
+        <item>596.primordial</item>
+        <item>597.pristine</item>
+        <item>598.probity</item>
+        <item>599.problematic</item>
+        <item>600.prodigal</item>
+        <item>601.profound</item>
+        <item>602.prohibitive</item>
+        <item>603.proliferate</item>
+        <item>604.propensity</item>
+        <item>605.propitiate</item>
+        <item>606.propriety</item>
+        <item>607.proscribe</item>
+        <item>608.provident</item>
+        <item>609.puissant</item>
+        <item>610.punctilious</item>
+        <item>611.pungent</item>
+        <item>612.purport</item>
+        <item>613.pusillanimous</item>
+        <item>614.quagmire</item>
+        <item>615.quail</item>
+        <item>616.qualified</item>
+        <item>617.qualm</item>
+        <item>618.query</item>
+        <item>619.quibble</item>
+        <item>620.quiescent</item>
+        <item>621.quorum</item>
+        <item>622.raconteur</item>
+        <item>623.0rail</item>
+        <item>624.raimen</item>
+        <item>625.ramification</item>
+        <item>626.rarefied</item>
+        <item>627.rationale</item>
+        <item>628.rebu</item>
+        <item>629.recalcitrant</item>
+        <item>630.recant</item>
+        <item>631.recluse</item>
+        <item>632.recondite</item>
+        <item>633.redoubtable</item>
+        <item>634.refractory</item>
+        <item>635.refulgent</item>
+        <item>636.refute</item>
+        <item>637.regale</item>
+        <item>638.relegate</item>
+        <item>639.remonstrate</item>
+        <item>640.renege</item>
+        <item>641.reparation</item>
+        <item>642.repine</item>
+        <item>643.reprise</item>
+        <item>644.reproach</item>
+        <item>645.reprobate</item>
+        <item>646.repudiate</item>
+        <item>647.rescind</item>
+        <item>648.resolution</item>
+        <item>649.resolve</item>
+        <item>650.reticent</item>
+        <item>651.reverent</item>
+        <item>652.riposte</item>
+        <item>653.rococo</item>
+        <item>654.rubric</item>
+        <item>655.rue</item>
+        <item>656.ruse</item>
+        <item>657.sage</item>
+        <item>658.salacious</item>
+        <item>659.salubrious</item>
+        <item>660.salutary</item>
+        <item>661.sanction</item>
+        <item>662.sardonic</item>
+        <item>663.sartorial</item>
+        <item>664.satiate</item>
+        <item>665.saturate</item>
+        <item>666.saturnine</item>
+        <item>667.satyr</item>
+        <item>668.savor</item>
+        <item>669.schematic</item>
+        <item>670.secrete</item>
+        <item>671.sedition</item>
+        <item>672.sedulous</item>
+        <item>673.seismic</item>
+        <item>674.sensual</item>
+        <item>675.sensuous</item>
+        <item>676.sentient</item>
+        <item>677.servile</item>
+        <item>678.sextant</item>
+        <item>679.shard</item>
+        <item>680.sidereal</item>
+        <item>681.simian</item>
+        <item>682.simile</item>
+        <item>683.sinecure</item>
+        <item>684.singular</item>
+        <item>685.sinuous</item>
+        <item>686.skeptic</item>
+        <item>687.sobriety</item>
+        <item>688.sodden</item>
+        <item>689.solicitous</item>
+        <item>690.soliloquy</item>
+        <item>691.solvent</item>
+        <item>692.somatic</item>
+        <item>693.soporific</item>
+        <item>694.sordid</item>
+        <item>695.specious</item>
+        <item>696.spectrum</item>
+        <item>697.spendthrift</item>
+        <item>698.sporadic</item>
+        <item>699.squalor</item>
+        <item>700.staccato</item>
+        <item>701.stanch</item>
+        <item>702.stentorian</item>
+        <item>703.stigma</item>
+        <item>704.stint</item>
+        <item>705.stipulate</item>
+        <item>706.stolid</item>
+        <item>707.stratified</item>
+        <item>708.striated</item>
+        <item>709.stricture</item>
+        <item>710.strident</item>
+        <item>711.strut</item>
+        <item>712.stultify</item>
+        <item>713.stupefy</item>
+        <item>714.stygian</item>
+        <item>715.subpoena</item>
+        <item>716.subside</item>
+        <item>717.substantiate</item>
+        <item>718.substantive</item>
+        <item>719.subsume</item>
+        <item>720.subversive</item>
+        <item>721.succor</item>
+        <item>722.suffrage</item>
+        <item>723.sundry</item>
+        <item>724.supersede</item>
+        <item>725.supine</item>
+        <item>726.supplant</item>
+        <item>727.suppliant</item>
+        <item>728.supplicant</item>
+        <item>729.supposition</item>
+        <item>730.syllogism</item>
+        <item>731.sylvan</item>
+        <item>732.tacit</item>
+        <item>733.talisman</item>
+        <item>734.tangential</item>
+        <item>735.tautology</item>
+        <item>736.taxonomy</item>
+        <item>737.tenet</item>
+        <item>738.tenuous</item>
+        <item>739.terrestrial</item>
+        <item>740.theocracy</item>
+        <item>741.thespian</item>
+        <item>742.timbre</item>
+        <item>743.tirade</item>
+        <item>744.toady</item>
+        <item>745.tome</item>
+        <item>746.torpor</item>
+        <item>747.torque</item>
+        <item>748.tortuous</item>
+        <item>749.tout</item>
+        <item>750.tractable</item>
+        <item>751.transgression</item>
+        <item>752.transient</item>
+        <item>753.translucent</item>
+        <item>754.travail</item>
+        <item>755.travesty</item>
+        <item>756.treatise</item>
+        <item>757.tremulous</item>
+        <item>758.trepidation</item>
+        <item>759.truculence</item>
+        <item>760.tryst</item>
+        <item>761.tumid</item>
+        <item>762.turbid</item>
+        <item>763.turgid</item>
+        <item>764.tutelary</item>
+        <item>765.uncanny</item>
+        <item>766.undulating</item>
+        <item>767.unfeigned</item>
+        <item>768.untenable</item>
+        <item>769.untoward</item>
+        <item>770.usury</item>
+        <item>771.vacillate</item>
+        <item>772.vacuous</item>
+        <item>773.valedictory</item>
+        <item>774.vapid</item>
+        <item>775.variegated</item>
+        <item>776.vaunt</item>
+        <item>777.venal</item>
+        <item>778.vendetta</item>
+        <item>779.venerate</item>
+        <item>780.veracious</item>
+        <item>781.verbose</item>
+        <item>782.vertigo</item>
+        <item>783.vexation</item>
+        <item>784.viable</item>
+        <item>785.vindictive</item>
+        <item>786.virtuoso</item>
+        <item>787.visage</item>
+        <item>788.viscous</item>
+        <item>789.vitiate</item>
+        <item>790.vituperative</item>
+        <item>791.vivisection</item>
+        <item>792.vogue</item>
+        <item>793.volatile</item>
+        <item>794.vortex</item>
+        <item>795.warranted</item>
+        <item>796.wary</item>
+        <item>797.welter</item>
+        <item>798.whimsical</item>
+        <item>799.wistful</item>
+        <item>800.zealot</item>
+    </string-array>
+
+    <string-array name="meanings">
+        <item> to decrease; reduce</item>
+        <item>to give up a position, right, or power</item>
+        <item>deviating from what is normal </item>
+        <item>temporary suppression or suspension </item>
+        <item>miserable; pitiful </item>
+        <item>to reject; abandon formally </item>
+        <item>the act of cutting; the natural separation of a leaf or other part of a plant </item>
+        <item>to depart secretly</item>
+        <item>moderate in appetite</item>
+        <item>the giving up of certain pleasures </item>
+        <item>very bad </item>
+        <item>growth in size or increase in amount </item>
+        <item>to accumulate; grow by additions </item>
+        <item>uncompromising; unyielding</item>
+        <item>something added, attached, or joined </item>
+        <item>to caution or reprimand</item>
+        <item>to corrupt or make impure</item>
+        <item>relating to beauty or the arts</item>
+        <item>pretentious; phony</item>
+        <item>fondness; liking; similarity</item>
+        <item>to make larger or greater</item>
+        <item>amounting to a whole; total</item>
+        <item>cheerful willingness; eagerness; speed</item>
+        <item>medieval chemical philosophy based on changing metal into gold; a seemingly magical power or process of      transmutation</item>
+        <item>to lessen; ease; soothe</item>
+        <item>to relieve; improve partially</item>
+        <item>a combination; a mixture of two or more metals</item>
+        <item>the power to entice by charm</item>
+        <item>to combine into a unified whole</item>
+        <item>unclear or doubtful in meaning</item>
+        <item>the state of having conflicting emotional attitudes</item>
+        <item>something delicious; the food of the gods</item>
+        <item>to improve</item>
+        <item>agreeable; cooperative; suited</item>
+        <item>something that increases comfort</item>
+        <item>ornament worn as a charm against evil spirits</item>
+        <item>something out of the proper time</item>
+        <item>medication that reduces or eliminates pain</item>
+        <item>comparable</item>
+        <item>absence of government; state of disorder</item>
+        <item>something that calms or soothes pain</item>
+        <item>irregular; deviating from the norm</item>
+        <item>something that comes before</item>
+        <item>prehistoric</item>
+        <item>dislike; hostility</item>
+        <item>indifference</item>
+        <item>the highest point</item>
+        <item>the point in an orbit most distant from the body being orbited; the highest point</item>
+        <item>a terse, witty saying</item>
+        <item>to calm, pacify, placate</item>
+        <item>name</item>
+        <item>strikingly appropriate and relevant</item>
+        <item>to inform</item>
+        <item>praise, approval</item>
+        <item>to take possession of for one\'s own use; confiscate</item>
+        <item>relevant</item>
+        <item>ornate design featuring intertwined curves; a ballet position in which one leg is extended in back while the other supports the weight of the body</item>
+        <item>the study of material evidence of past human life</item>
+        <item>great emotion or passion</item>
+        <item>extremely difficult; laborious</item>
+        <item>a specialized vocabulary used by a group</item>
+        <item>to stop; to seize</item>
+        <item>item made by human craft</item>
+        <item>guileless; natural</item>
+        <item>one who practices self-denial</item>
+        <item>severity; harshness; irritability</item>
+        <item>slander; false rumor</item>
+        <item>diligent; hard-working</item>
+        <item>to make less severe</item>
+        <item>harsh; severe</item>
+        <item>place of refuge or shelter</item>
+        <item>in biology, the reappearance of a characteristic in an organism after several generations of absence; individual or a part that exhibits atavism; return of a trait after a period of absence</item>
+        <item>to weaken</item>
+        <item>bold; daring</item>
+        <item>stern; unadorned; simple</item>
+        <item>self-governing; independent</item>
+        <item>greed</item>
+        <item>to affirm; declare to be true</item>
+        <item>secondary occupation</item>
+        <item>like an uncle, benevolent and tolerant</item>
+        <item>taken for granted; self-evident truth</item>
+        <item>pertaining to riotous or drunken festivity; pertaining to revelry</item>
+        <item>commonplace; trite</item>
+        <item>playful conversation</item>
+        <item>poet</item>
+        <item>obscene</item>
+        <item>to sanctify; to bless; to ascribe a virtue to</item>
+        <item>to dress in a vulgar, showy manner</item>
+        <item>huge creature; anything very large and powerful</item>
+        <item>to contradict; misrepresent; give a false impression</item>
+        <item>kindly; doing good</item>
+        <item>to divide into two parts</item>
+        <item>flattery</item>
+        <item>bored because of frequent indulgence; unconcerned</item>
+        <item>to give a boost to; prop up; support</item>
+        <item>pompous; using inflated language</item>
+        <item>rude; insensitive</item>
+        <item>cow like</item>
+        <item>bold; shameless</item>
+        <item>to mention for the first time</item>
+        <item>characteristic of the countryside; rustic; pastoral</item>
+        <item>to grow and flourish</item>
+        <item>to polish</item>
+        <item>to reinforce; support</item>
+        <item>unpleasant or harsh-sounding </item>
+        <item>to beg; sponge</item>
+        <item>thick-skinned; insensitive</item>
+        <item>false and malicious accusation; slander</item>
+        <item>false; deliberately misleading story</item>
+        <item>an established set of principles; a basis or standard for judgment; a group of literary works</item>
+        <item>insincere talk; language of a particular group</item>
+        <item>irritable; ill-humored</item>
+        <item>fickle</item>
+        <item>faultfinding; intended to entrap, as in an argument</item>
+        <item>of foremost importance</item>
+        <item>of the flesh or body; related to physical appetites</item>
+        <item>to find fault; complain</item>
+        <item>science of making maps</item>
+        <item>any of the hereditary social classes in Hindu society; social stratification</item>
+        <item>punishment; chastisement; criticism</item>
+        <item>a violent upheaval that causes great destruction and change</item>
+        <item>something that causes change</item>
+        <item>absolute; without exception</item>
+        <item>smaller group within an organization</item>
+        <item>involving a cause</item>
+        <item>burning; stinging; causing corrosion</item>
+        <item>concerned with sky or heavens; sublime</item>
+        <item>moving away from a center</item>
+        <item>moving or directed toward a center</item>
+        <item>to defend or support</item>
+        <item>to correct by punishment or reproof; to restrain or subdue</item>
+        <item>trickery; fraud</item>
+        <item>the qualities idealized by knighthood such as bravery and gallantry toward women</item>
+        <item>rude; boorish</item>
+        <item>roundabout</item>
+        <item>one who can predict the future; psychic</item>
+        <item>noisy outcry</item>
+        <item>a small, exclusive group</item>
+        <item>to confine; seclude</item>
+        <item>thicken; congeal</item>
+        <item>to cause to become one</item>
+        <item>concluding part of a literary or musical composition; something that summarizes or concludes</item>
+        <item>to systematize</item>
+        <item>informed; conscious; aware</item>
+        <item>artistic composition of materials pasted over a surface; an assemblage of diverse elements</item>
+        <item>proportional</item>
+        <item>brief, comprehensive summary</item>
+        <item>self-satisfied</item>
+        <item>overly polite; willingness to comply with the wishes of others</item>
+        <item>something that completes or makes up a whole</item>
+        <item>yielding</item>
+        <item>uneasiness caused by guilt</item>
+        <item>curving inward</item>
+        <item>overcoming distrust or hostility</item>
+        <item>to invent</item>
+        <item>existing concurrently</item>
+        <item>to overlook voluntarily; forgive</item>
+        <item>to baffle; perplex; mix up</item>
+        <item>similar in tastes and habits; friendly; suited to</item>
+        <item>pertaining to marriage agreement</item>
+        <item>expert in matters of taste; expert knowledge or training</item>
+        <item>a person compulsorily enrolled for military service</item>
+        <item>to declare sacred</item>
+        <item>to assert</item>
+        <item>quarrelsome; causing quarrels</item>
+        <item>touching; neighboring; connecting without a break</item>
+        <item>self-control; abstention from sexual activity</item>
+        <item>very sorrowful for a wrong; seeking forgiveness</item>
+        <item>disobedient; rebellious</item>
+        <item>riddle; puzzle with no solution</item>
+        <item>practice widely observed in a group; custom; accepted technique or device</item>
+        <item>to approach; come together; tend to meet</item>
+        <item>curved outward</item>
+        <item>sociable</item>
+        <item>twisted; complicated</item>
+        <item>abundant; plentiful</item>
+        <item>woman who flirts</item>
+        <item>horn overflowing with fruit and grain; state of abundance</item>
+        <item>study of the universe as a totality; theory of the origin and structure of the universe</item>
+        <item>hidden; secret</item>
+        <item>desiring something owned by another</item>
+        <item>to mislead by trick or fraud; deceive</item>
+        <item>cowardly</item>
+        <item>acceptance of something as true</item>
+        <item>statement of belief or principle; creed</item>
+        <item>to discourage; intimidate; dishearten</item>
+        <item>scarcity</item>
+        <item>corruption</item>
+        <item>proper behavior</item>
+        <item>to malign; harm someone\'s reputation</item>
+        <item>to fail to act</item>
+        <item>respect; regard for another\'s wish</item>
+        <item>no longer existing</item>
+        <item>to represent or depict</item>
+        <item>related to population balance</item>
+        <item>pertaining to people</item>
+        <item>to express doubt; question or oppose</item>
+        <item>to slur someone\'s reputation</item>
+        <item>an inhabitant; a regular visitor</item>
+        <item>outcome; unraveling of the plot of a play or work of literature</item>
+        <item>to mock</item>
+        <item>something derived; unoriginal</item>
+        <item>to dry completely</item>
+        <item>state of disuse</item>
+        <item>random; disconnected; rambling</item>
+        <item>something that discourages or hinders</item>
+        <item>the act of taking away</item>
+        <item>transparent; vague; insubstantial</item>
+        <item>bitter verbal attack </item>
+        <item>division into two usually contradictory parts</item>
+        <item>shyness; lack of confidence</item>
+        <item>to spread out</item>
+        <item>act of straying from the main point</item>
+        <item>funeral hymn</item>
+        <item>free from a misconception</item>
+        <item>perceptive; exhibiting keen insight and good judgment</item>
+        <item>to make uneasy; disconcert</item>
+        <item>not in tune</item>
+        <item>to dishonor; disgrace</item>
+        <item>difference between</item>
+        <item>constituting a separate thing; distinct</item>
+        <item>quality of showing self-restraint in speech or actions</item>
+        <item>not candid, crafty</item>
+        <item>unprejudiced; objective</item>
+        <item>lacking order or coherence; dislocated</item>
+        <item>put away from consideration; reject</item>
+        <item>to belittle</item>
+        <item>dissimilar</item>
+        <item>to pretend; disguise one\'s motives</item>
+        <item>to spread; scatter; disperse</item>
+        <item>person who disagrees about beliefs</item>
+        <item>disintegration; debauchery</item>
+        <item>discord; lack of harmony</item>
+        <item>to expand; swell out</item>
+        <item>extract the essential elements</item>
+        <item>inattentive; preoccupied</item>
+        <item>to vary; go in different directions from the same point</item>
+        <item>to strip; deprive; rid</item>
+        <item>to make known something that is secret</item>
+        <item>dogmatic; unyielding</item>
+        <item>to provide with written evidence to support</item>
+        <item>poor verse</item>
+        <item>stating opinions without proof</item>
+        <item>inactive</item>
+        <item>waste; worthless matter</item>
+        <item>to deceive; trick</item>
+        <item>exhilarated; overly enthusiastic</item>
+        <item>selecting from various sources</item>
+        <item>state of high spirits or liveliness; process of bubbling as gas escapes</item>
+        <item>depleted of vitality; over refined; decadent</item>
+        <item>effectiveness; efficiency</item>
+        <item>shameless boldness; presumptuousness</item>
+        <item>the tendency to see things in relation to oneself; self-centeredness</item>
+        <item>excessively self-centered; conceited</item>
+        <item>poem or song expressing lamentation</item>
+        <item>to provoke; draw out</item>
+        <item>a substance believed to have the power to cure ills</item>
+        <item>delightful; blissful</item>
+        <item>thin and wasted</item>
+        <item>to adorn; enhance</item>
+        <item>soothing; mollifying</item>
+        <item>derived from observation or experiment</item>
+        <item>to imitate; copy</item>
+        <item>a formal expression of praise</item>
+        <item>inherent; belonging to an area</item>
+        <item>to weaken</item>
+        <item>to cause; produce</item>
+        <item>to increase; improve</item>
+        <item>the scientific study of insects</item>
+        <item>to pronounce clearly</item>
+        <item>short-lived; fleeting</item>
+        <item>branch of philosophy that examines the nature of knowledge</item>
+        <item>steady; unvarying; serene</item>
+        <item>composure; calmness</item>
+        <item>intentionally use vague language</item>
+        <item>mistaken; straying from the proper course</item>
+        <item>learned; scholarly</item>
+        <item>hard to understand; known only to a few</item>
+        <item>to make an attempt; subject to a test</item>
+        <item>admirable; possible to estimate</item>
+        <item>based on the attitude that one\'s group is superior</item>
+        <item>causes or origins</item>
+        <item>origin an history of a word</item>
+        <item>study of factors that influence the hereditary qualities of the human race and ways to improve those qualities</item>
+        <item>high praise to a death person</item>
+        <item>use of agreeable or inoffensive language in place of offensive language</item>
+        <item>feeling of extreme happiness</item>
+        <item>mercy killing</item>
+        <item>to show plainly; be an indication of</item>
+        <item>tending to call to mind or produce a reaction</item>
+        <item>to aggravate; make worse</item>
+        <item>to force the payment of; demand and obtain by authority</item>
+        <item>to clear of blame; vindicate</item>
+        <item>detestable;  abhorrent</item>
+        <item>to urge by strong appeals</item>
+        <item>crisis; urgent requirements</item>
+        <item>having to do with existence</item>
+        <item>to expel evil spirits; free from bad influences</item>
+        <item>to speak or write at length</item>
+        <item>to send into exile</item>
+        <item>to atone for</item>
+        <item>to explain; interpret; clarify</item>
+        <item>explanatory</item>
+        <item>in existence; not lost</item>
+        <item>unrehearsed</item>
+        <item>to root up; to destroy</item>
+        <item>not essential</item>
+        <item>the act of estimation by projecting known information</item>
+        <item>not inherent of essential</item>
+        <item>humorous</item>
+        <item>to make less difficult</item>
+        <item>a person who does all sorts of work; a handyman</item>
+        <item>based on a false idea or fact; misleading</item>
+        <item>plowed but not sowed; uncultivated</item>
+        <item>foolishly self-satisfied</item>
+        <item>animals of a period o region</item>
+        <item>seeking flavor by flattering</item>
+        <item>suitable expressed; wee-chose; appropriate</item>
+        <item>existing in a wild or untamed state</item>
+        <item>warmth and intensity of emotion</item>
+        <item>having a bad smell</item>
+        <item>to bind; confine</item>
+        <item>arbitrary  order; authorization</item>
+        <item>loyalty; exact correspondence</item>
+        <item>use of obstructive tactics in a legislature to block passage of a law</item>
+        <item>to handle with a deceptive or evasive strategy; refined in performance</item>
+        <item>crevice</item>
+        <item>to droop; grow weak</item>
+        <item>beginner; novice</item>
+        <item>plants of a region or era</item>
+        <item>ruddy; reddish; flowery</item>
+        <item>an embellishment or ornamentation</item>
+        <item>to treat scornfully</item>
+        <item>flowing; a continuous moving</item>
+        <item>to incite; arouse</item>
+        <item>patience</item>
+        <item>to prevent; delay</item>
+        <item>menacing; threatening</item>
+        <item>renounce; repudiate</item>
+        <item>to sink; fail; collapse</item>
+        <item>a loud quarrel; brawl</item>
+        <item>quarrelsome; unruly; rebellious</item>
+        <item>a painting done on plaster</item>
+        <item>ornamental band on a wall</item>
+        <item>stubbornly contrary; obstinately disobedient</item>
+        <item>thrift</item>
+        <item>to attack loudly; denounce</item>
+        <item>so excessive as to be disgusting</item>
+        <item>union; synthesis</item>
+        <item>ineffective; useless; fruitless</item>
+        <item>to deny; dispute; oppose</item>
+        <item>to frolic; leap playfully</item>
+        <item>very talkative; wordy</item>
+        <item>coarse and uncouth; clumsy</item>
+        <item>cheerfulness; kindliness; sociability</item>
+        <item>to divide an area into voting districts in a way that favors a political party</item>
+        <item>fluent in an insincere way; offhand</item>
+        <item>to prod; urge on</item>
+        <item>sheer; light and delicate; like cobwebs</item>
+        <item>to tear out; scoop out; overcharge</item>
+        <item>pompous; bombastic</item>
+        <item>outgoing; sociable</item>
+        <item>to complain</item>
+        <item>free of cunning or deceit; artless</item>
+        <item>outward appearance; false appearance</item>
+        <item>easily deceived</item>
+        <item>affecting the sense of taste</item>
+        <item>calm and peaceful; happy; golden; prosperous</item>
+        <item>holy; sacred</item>
+        <item>long, pompous speech; tirade</item>
+        <item>extremely distressing; terrifying</item>
+        <item>an animal that feeds mainly on plants</item>
+        <item>tightly sealed; magical</item>
+        <item>not widely accepted</item>
+        <item>a system of writing in which pictorial symbols represent meanings or sounds; writing or symbols that are difficult to decipher</item>
+        <item>covered with hair</item>
+        <item>relating to exaggerated emotional behavior calculated for effect; theatrical acts or performances</item>
+        <item>automatic maintenance by an organism in balance with itself</item>
+        <item>sermon; tedious moralizing lecture</item>
+        <item>composed of identical parts; uniform in composition</item>
+        <item>purposeful exaggeration for effect</item>
+        <item>attacking cherished traditions</item>
+        <item>idol worship; blind or excessive devotion</item>
+        <item>produced by fire; volcanic</item>
+        <item>complicated situation; an entanglement</item>
+        <item>unchangeable</item>
+        <item>damage; injure</item>
+        <item>showing no emotion</item>
+        <item>poor; having no money</item>
+        <item>to hinder; block</item>
+        <item>impossible to permeate</item>
+        <item>not easily disturbed</item>
+        <item>incapable of being affected; impossible to penetrate</item>
+        <item>to strike; encroach</item>
+        <item>inflexible; incable of being pleased or calmed down</item>
+        <item>unlikely; unbelievable</item>
+        <item>implied; understood but not stated</item>
+        <item>collapse inward violently</item>
+        <item>curse; damnation</item>
+        <item>to attribute the fault to; relate to a particular cause or source</item>
+        <item>carelessly; unintentionally</item>
+        <item>having bodily form</item>
+        <item>imperfectly formed or formulated</item>
+        <item>state of not fitting</item>
+        <item>insignificant; unimportant</item>
+        <item>introduce something into another thing already in existence</item>
+        <item>sudden invasion</item>
+        <item>uncertain; indefinite</item>
+        <item>poverty</item>
+        <item>habitually lazy; idle</item>
+        <item>not to be avoided or escaped; inevitable</item>
+        <item>unable to move; sluggish</item>
+        <item>naive and trusting; lacking sophistication</item>
+        <item>firmly established by nature or habit</item>
+        <item>harmless</item>
+        <item>unconscious; unresponsive</item>
+        <item>to suggest; say indirectly; imply</item>
+        <item>lacking in flavor; dull</item>
+        <item>indifferent; lacking concern or care</item>
+        <item>narrow-mindedness; isolation</item>
+        <item>insurmountable; unconquerable</item>
+        <item>not material</item>
+        <item>to forbid; prohibit</item>
+        <item>deadly to both sides</item>
+        <item>to insert; change by adding new words or material</item>
+        <item>interval between reigns; gap in continuity</item>
+        <item>marked by close acquaintance</item>
+        <item>not easily managed</item>
+        <item>stubbornness; refusal to compromise</item>
+        <item>contemplating one\'s own thoughts and feelings</item>
+        <item>to cover with water, overwhelm</item>
+        <item>hardened; accustomed; used to</item>
+        <item>verbal abuse</item>
+        <item>to disapprove; protest vehemently</item>
+        <item>to win over by flattering or coaxing</item>
+        <item>confirmed; long standing</item>
+        <item>likely to provoke ill will</item>
+        <item>easily angered</item>
+        <item>unsure of how to act; weak</item>
+        <item>wandering from place to place; unsettled</item>
+        <item>route of a traveler\'s journey</item>
+        <item>having a yellowish discoloration of the skin; affected by envy</item>
+        <item>to be in agreement</item>
+        <item>fond of joking; jocular</item>
+        <item>huge force destroying everything in its path</item>
+        <item>group of people united in political intrigue</item>
+        <item>place side by side</item>
+        <item>fame; glory; honor</item>
+        <item>likely to change</item>
+        <item>using few words</item>
+        <item>to trash verbally or physically</item>
+        <item>lustful</item>
+        <item>lethargy; sluggishness</item>
+        <item>dormant; potential not apparent</item>
+        <item>praise</item>
+        <item>inactive</item>
+        <item>an embankment that prevents a river from overflowing</item>
+        <item>light manner or attitude</item>
+        <item>tolerant; broad-minded</item>
+        <item>one without moral restraint</item>
+        <item>sexual desire</item>
+        <item>extremely small</item>
+        <item>to draw, describe</item>
+        <item>clear; transparent</item>
+        <item>pertaining to language</item>
+        <item>lengthy recitation; repetitive chant</item>
+        <item>scholarly of learned persons</item>
+        <item>legal proceedings</item>
+        <item>record of a voyage; record of daily activities</item>
+        <item>talkative</item>
+        <item>bright; clear; intelligible</item>
+        <item>money or profits</item>
+        <item>bright; brilliant; glowing</item>
+        <item>shining</item>
+        <item>crafty; double-dealing</item>
+        <item>plots or schemes</item>
+        <item>whirlpool; turmoil</item>
+        <item>generosity; nobility</item>
+        <item>to speak evil of</item>
+        <item>to feign illness to escape duty
+Nevertheless, paradoxical though it may seem, cases of pure malingering of mental disease are comparatively ________ in actual practice.
+sporadic illogical intermittent obvious contradictory compelling</item>
+        <item>capable of being shaped by pounding; impressionate</item>
+        <item>dissenter</item>
+        <item>delusions of power or importance</item>
+        <item>a variety of animals kept together</item>
+        <item>dishonest</item>
+        <item>beggar</item>
+        <item>gaudy; specious; falsely attractive</item>
+        <item>to hypnotize</item>
+        <item>change; transformation</item>
+        <item>a branch of philosophy that investigates the ultimate nature of reality</item>
+        <item>concerned with the weather</item>
+        <item>very careful; picky; fastidious</item>
+        <item>courage; endurance</item>
+        <item>full of courage and fortitude</item>
+        <item>a small system having analogies to a larger system</item>
+        <item>to work against</item>
+        <item>threatening; menacing</item>
+        <item>very small</item>
+        <item>petty details</item>
+        <item>one who hates humanity; one who dislikes others</item>
+        <item>mixture of writings on various subjects</item>
+        <item>villain; criminal</item>
+        <item>one who hates women</item>
+        <item>alleviate; to become less severe</item>
+        <item>related to memory; assisting memory</item>
+        <item>limited quantity</item>
+        <item>to soothe</item>
+        <item>solid and uniform; constituting a single, unified whole</item>
+        <item>ill-humored; sullen</item>
+        <item>many colored; made up of many parts</item>
+        <item>diverse</item>
+        <item>worldly as opposed to spiritual; concerned with the ordinary</item>
+        <item>black magic</item>
+        <item>to cancel out; nullify</item>
+        <item>new word or expression</item>
+        <item>novice; beginner</item>
+        <item>a means of connection; a center</item>
+        <item>bewildered</item>
+        <item>sentimental longing for a past time</item>
+        <item>medicine or remedy of doubtful effectiveness</item>
+        <item>trifling; invalid</item>
+        <item>stubborn</item>
+        <item>overly submissive</item>
+        <item>funeral ceremony</item>
+        <item>to make unnecessary; to anticipate and prevent</item>
+        <item>to shut; block</item>
+        <item>relating to practices connected with supernatural phenomena</item>
+        <item>a long, adventurous voyage; a quest</item>
+        <item>too helpful; meddlesome</item>
+        <item>concerning the sense of smell</item>
+        <item>form of government in which power belongs to only a few leaders</item>
+        <item>burdensome</item>
+        <item>formation or use of words that imitate sounds of the actions they refer to</item>
+        <item>public disgrace; contempt</item>
+        <item>scientist who studies birds</item>
+        <item>to move back and forth</item>
+        <item>showy; pretentious</item>
+        <item>presumptuous; arrogant</item>
+        <item>song of joy or triumph; a fervent expression of joy</item>
+        <item>study of past geological eras through fossil remains</item>
+        <item>lacking color or liveliness</item>
+        <item>elaborate praise; formal hymn of praise</item>
+        <item>model of perfection or excellence</item>
+        <item>one-sided; committed to a party, group or cause</item>
+        <item>departing from normal condition</item>
+        <item>jargon; a regional dialect</item>
+        <item>scarcity</item>
+        <item>showing off learning</item>
+        <item>transparent; easily understood</item>
+        <item>inclination</item>
+        <item>extreme poverty</item>
+        <item>wandering from place to place</item>
+        <item>imperative; leaving no choice</item>
+        <item>present throughout the years; persistent</item>
+        <item>faithless; disloyal; untrustworthy</item>
+        <item>superficial; performed really as a duty</item>
+        <item>point in an orbit that is closest to the earth</item>
+        <item>penetrable</item>
+        <item>to disturb greatly; make uneasy or anxious</item>
+        <item>spread throughout every part</item>
+        <item>rude; peevish</item>
+        <item>unemotional; calm in temperament</item>
+        <item>anything that is restored after suffering great destruction</item>
+        <item>facial features</item>
+        <item>devoutness</item>
+        <item>pleasantly pungent; attractive</item>
+        <item>fleeting feeling or hurt pride</item>
+        <item>soothe; pacify</item>
+        <item>calm</item>
+        <item>melancholy; mournful</item>
+        <item>pliability; condition of being able to be shaped or formed</item>
+        <item>stale; overused expression</item>
+        <item>spiritual; theoretical</item>
+        <item>excess; overabundance</item>
+        <item>to examine deeply; determine the depth</item>
+        <item>to fall; plunge</item>
+        <item>society ruled by the wealthy</item>
+        <item>full of holes; permeable to liquids</item>
+        <item>person who affects an attitude to impress others</item>
+        <item>practical</item>
+        <item>to talk idly; chatter</item>
+        <item>meaningless, foolish talk</item>
+        <item>preliminary statement</item>
+        <item>uncertain</item>
+        <item>principle; law</item>
+        <item>rash; hasty; sudden; done without deliberation</item>
+        <item>to cause to happen; throw down from a height</item>
+        <item>forerunner; predecessor</item>
+        <item>to supersede; appropriate  for oneself</item>
+        <item>capable of grasping</item>
+        <item>forewarning; presentiment</item>
+        <item>to foretell; indicate in advance</item>
+        <item>rude; improperly bold</item>
+        <item>supernatural; beyond the normal use of nature</item>
+        <item>to quibble; evade the truth</item>
+        <item>original; existing from the beginning</item>
+        <item>untouched; uncorrupted</item>
+        <item>honesty; high-mindness</item>
+        <item>posing a problem; doubtful</item>
+        <item>wasteful; extravagant; lavish</item>
+        <item>deep, not superficial</item>
+        <item>so high as to prevent the purchase or use of, forbidding</item>
+        <item>to increase rapidly</item>
+        <item>inclination, tendency</item>
+        <item>to win over, appease</item>
+        <item>correct conduct, fitness</item>
+        <item>to condemn, forbid, outlaw</item>
+        <item>providing for future need, frugal</item>
+        <item>powerful</item>
+        <item>careful in observing rules of behavior</item>
+        <item>penetrating, caustic, to the point</item>
+        <item>to profess, suppose, claim</item>
+        <item>cowardly</item>
+        <item>marsh, difficult situation</item>
+        <item>to cower, lose heart</item>
+        <item>limited, restricted</item>
+        <item>sudden feeling of faintness or nausea</item>
+        <item>question</item>
+        <item>to argue over insignificant and irrelevant details</item>
+        <item>inactive, still</item>
+        <item>number of member necessary to conduct a meeting</item>
+        <item>witty, skillful storyteller</item>
+        <item>to scold with bitter or abusive language</item>
+        <item>clothing</item>
+        <item>implication, consequence</item>
+        <item>refined</item>
+        <item>fundamental reason</item>
+        <item>puzzle in which pictures or symbols represent words</item>
+        <item>resisting authority or control</item>
+        <item>retract a statement of opinion</item>
+        <item>person who lives in seclusion and often in solitude</item>
+        <item>abstruse, profound</item>
+        <item>formidable, arousing fear</item>
+        <item>stubborn, resisting ordinary methods of treatment</item>
+        <item>brightly shining, resplendent</item>
+        <item>to contradict, disprove</item>
+        <item>to entertain</item>
+        <item>to consign to an inferior position</item>
+        <item>to object or protest</item>
+        <item>to go back on one\'s word</item>
+        <item>amends, compensation</item>
+        <item>fret, complain</item>
+        <item>repetition, especially of a piece of music</item>
+        <item>to find fault with, blame</item>
+        <item>morally unprincipled person</item>
+        <item>to reject as having no authority</item>
+        <item>to cancel</item>
+        <item>determination, resolve</item>
+        <item>determination, firmness of purpose</item>
+        <item>nor speaking freely, reserved, reluctant</item>
+        <item>expressing deep respect, worshipful</item>
+        <item>retaliatory action or retort</item>
+        <item>excessively ornate</item>
+        <item>protocol, title or heading</item>
+        <item>regret</item>
+        <item>trick, crafty stratagem</item>
+        <item>wise</item>
+        <item>lascivious, lustful</item>
+        <item>healthful</item>
+        <item>expecting an improvement, favorable to health</item>
+        <item>to approve, ratify, permit</item>
+        <item>cynical, scornfully mocking</item>
+        <item>pertaining to tailors</item>
+        <item>to satisfy</item>
+        <item>imbue throughout,  soak thoroughly</item>
+        <item>gloomy</item>
+        <item>a creature that is half-man, half beast, with the horns and legs of a goat</item>
+        <item>to enjoy, have a distinctive flavor or smell</item>
+        <item>relating to or in the form of an outline or diagram</item>
+        <item>produce and release substance into organism</item>
+        <item>behavior  prompting  rebellion</item>
+        <item>diligent, assiduous</item>
+        <item>relating to earthquakes</item>
+        <item>relating to the senses, gratifying the physical (sexual) senses</item>
+        <item>relating to the senses</item>
+        <item>aware, conscious, able to perceive</item>
+        <item>submissive, obedient</item>
+        <item>navigation tool that determines latitude and longitude</item>
+        <item>a piece of broken glass or pottery</item>
+        <item>relating to the stars</item>
+        <item>apelike, relating to apes</item>
+        <item>comparison of one thing with another using "like" or "as"</item>
+        <item>well-paying job that requires little or no work</item>
+        <item>unique, extraordinary, odd</item>
+        <item>intricate, complex</item>
+        <item>one who doubts</item>
+        <item>seriousness</item>
+        <item>thoroughly soaked, saturated</item>
+        <item>concerned, attentive, eager</item>
+        <item>literary or dramatic speech by one character, not addressed to others</item>
+        <item>able to meet financial obligations</item>
+        <item>relating to or affecting the body, corporeal</item>
+        <item>sleep producing</item>
+        <item>filthy, contemptible and corrupt</item>
+        <item>seeming to be logical and sound, but not really so</item>
+        <item>band of color, broad range of related ideas or objects</item>
+        <item>person who spends money recklessly</item>
+        <item>irregular</item>
+        <item>filthy, wretched condition</item>
+        <item>marked by abrupt, clear-cut sounds</item>
+        <item>to stop or check the flow of</item>
+        <item>extremely loud</item>
+        <item>mark of disgrace or inferiority</item>
+        <item>to be sparing</item>
+        <item>to specify as an essential condition</item>
+        <item>having or showing little emotion</item>
+        <item>arranged in layers</item>
+        <item>marked with thin, narrow grooves or channels</item>
+        <item>something that restrains, negative criticism</item>
+        <item>loud, harsh, unpleasantly noisy</item>
+        <item>to swagger, display to impress others</item>
+        <item>to impair or reduce to uselessness</item>
+        <item>to dull the senses of, stun, astonish</item>
+        <item>dark and gloomy, hellish</item>
+        <item>notice ordering someone to appear in court</item>
+        <item>to settle down, grow quiet</item>
+        <item>to support with proof or evidence</item>
+        <item>essential</item>
+        <item>to include, incorporate</item>
+        <item>intended to undermine or underthrown, especially an established government</item>
+        <item>relief, help in time of distress or want</item>
+        <item>the right to vote</item>
+        <item>various</item>
+        <item>to replace, especially to displace as inferior or antiquated</item>
+        <item>lying in the back, marked by lethargy</item>
+        <item>to replace, substitute</item>
+        <item>beseeching</item>
+        <item>one who asks humbly and earnestly</item>
+        <item>the act of assuming to be true or real</item>
+        <item>a form of deductive reasoning with a major premise, a minor premise, and a conclusion</item>
+        <item>related to the woods or forest</item>
+        <item>silently understood, implied</item>
+        <item>charm to bring good luck and avert misfortune</item>
+        <item>peripheral, irrelevant, digressing</item>
+        <item>unnecessary repetition</item>
+        <item>science of classification</item>
+        <item>belief, doctrine</item>
+        <item>weak, insubstantial</item>
+        <item>earthly, commonplace</item>
+        <item>government by priests representing a god</item>
+        <item>an actor or actress</item>
+        <item>voice tone color</item>
+        <item>long, violent speech, verbal assault</item>
+        <item>flatterer, yes-man</item>
+        <item>book, usually large and academic</item>
+        <item>lethargy, dormancy, sluggishness</item>
+        <item>a turning or twisting force</item>
+        <item>having many twists and turns, highly complex</item>
+        <item>to promote or praise energetically</item>
+        <item>obedient, yielding</item>
+        <item>act of trespassing or violating a law or rule</item>
+        <item>temporary, fleeting</item>
+        <item>partially transparent</item>
+        <item>work, especially arduous work</item>
+        <item>parody, exaggerated imitation, caricature</item>
+        <item>article treating a subject systematically and thoroughly</item>
+        <item>trembling, frugal, timid</item>
+        <item>fear and anxiety</item>
+        <item>aggressiveness, ferocity</item>
+        <item>agreement between lovest to meet, rendez-vous</item>
+        <item>swollen, distended</item>
+        <item>muddy, opaque, in a state of great confusion</item>
+        <item>swollen, pompous</item>
+        <item>serving as a guardian or protector</item>
+        <item>mysterious, strange</item>
+        <item>moving in waves</item>
+        <item>not false, genuine</item>
+        <item>indefensible</item>
+        <item>not favorable, troublesome, unruly</item>
+        <item>a practice of lending money at exorbitant rates</item>
+        <item>to waver, oscillate</item>
+        <item>empty, void, lacking intelligence</item>
+        <item>pertaining to a farewell</item>
+        <item>tasteless, dull</item>
+        <item>varied, marked with different colors</item>
+        <item>to boast, drag</item>
+        <item>mercenary, corruptible</item>
+        <item>prolonged feud marked by bitter hostility</item>
+        <item>to adore, honor, respect</item>
+        <item>truthful, accurate</item>
+        <item>wordy</item>
+        <item>dizziness</item>
+        <item>irritation, annoyance</item>
+        <item>practicable, capable of developing</item>
+        <item>vengeful, unforgiving</item>
+        <item>someone with master skills, expert musician</item>
+        <item>appearance, aspect</item>
+        <item>thick, syrupy</item>
+        <item>to impair the quality of, corrupt morally</item>
+        <item>using or containing harsh, abusive censure</item>
+        <item>dissection, surgery, or painful experiments performed on a living animal for the purpose of scientific research</item>
+        <item>prevailing fashion or practice</item>
+        <item>tending to vary frequently, fickle</item>
+        <item>whirlpool, center of turbulence</item>
+        <item>justified</item>
+        <item>careful, cautious</item>
+        <item>wallow or roll, toss about, be in turmoil</item>
+        <item>fanciful, unpredictable</item>
+        <item>vaguely longing, sadly thoughtful</item>
+        <item>one who is fanatically devoted to a cause</item>
+    </string-array>
 </resources>

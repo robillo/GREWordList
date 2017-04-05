@@ -20,6 +20,20 @@
             android:title="Tools" />
     </group>
 
+    <item android:title="Groups">
+        <menu>
+            <item
+                android:id="@+id/group1"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Group 1 ( " />
+            <item
+                android:id="@+id/group2"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
     <item android:title="Communicate">
         <menu>
             <item
