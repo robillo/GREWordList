@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
-        addWMListFragment();
+        addWMListFragment(100);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -107,9 +107,12 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void addWMListFragment(){
+    private void addWMListFragment(int displayCode){
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
         WMListFragment wmListFragment = new WMListFragment();
+        Bundle args = new Bundle();
+        args.putInt("displayCode", displayCode);
+        wmListFragment.setArguments(args);
         fragmentTransaction.replace(R.id.fragment_container, wmListFragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();

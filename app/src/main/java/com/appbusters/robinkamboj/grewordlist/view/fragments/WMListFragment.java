@@ -25,17 +25,18 @@ public class WMListFragment extends Fragment {
     private String[] words, meanings;
     private LinearLayoutManager layoutManager;
     private RecyclerViewAdapter adapter;
+    private int displayCode;
 
     public WMListFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wmlist, container, false);
+        displayCode = getArguments().getInt("displayCode");
 
         words = getActivity().getResources().getStringArray(R.array.words);
         meanings = getActivity().getResources().getStringArray(R.array.meanings);
