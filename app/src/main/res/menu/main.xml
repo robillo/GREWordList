@@ -5,4 +5,10 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="101"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort Movies"
+        app:showAsAction="ifRoom"/>
 </menu>
