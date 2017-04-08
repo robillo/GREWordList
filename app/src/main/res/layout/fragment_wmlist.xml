@@ -2,12 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.MainFragment">
+    android:layout_marginTop="?android:actionBarSize"
+    tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.WMListFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/recyclerview">
+
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

@@ -206,10 +206,10 @@
         <item>194.delineate</item>
         <item>195.demographic</item>
         <item>196.demotic</item>
-        <item>19.demur</item>
+        <item>197.demur</item>
         <item>198.denigrate</item>
         <item>199.denizen</item>
-        <item>200.denouement</item>
+        <item>200.denouement</item> <!--GROUP1-->
         <item>201.deride</item>
         <item>202.derivative</item>
         <item>203.desiccate</item>
@@ -409,14 +409,14 @@
         <item>397.implicit</item>
         <item>398.implode</item>
         <item>399.imprecation</item>
-        <item>400.impute</item>
+        <item>400.impute</item>        <!--GROUP2-->
         <item>401.inadvertently</item>
         <item>402.incarnate</item>
         <item>403.inchoate</item>
         <item>404.incongruity</item>
         <item>405.inconsequential</item>
         <item>406.incorporate</item>
-        <item>40.incursion</item>
+        <item>407.incursion</item>
         <item>408.indeterminate</item>
         <item>409.indigence</item>
         <item>410.indolent</item>
@@ -609,7 +609,7 @@
         <item>597.pristine</item>
         <item>598.probity</item>
         <item>599.problematic</item>
-        <item>600.prodigal</item>
+        <item>600.prodigal</item>      <!--GROUP3-->
         <item>601.profound</item>
         <item>602.prohibitive</item>
         <item>603.proliferate</item>
@@ -809,7 +809,7 @@
         <item>797.welter</item>
         <item>798.whimsical</item>
         <item>799.wistful</item>
-        <item>800.zealot</item>
+        <item>800.zealot</item>      <!--GROUP4-->
     </string-array>
 
     <string-array name="meanings">
@@ -1013,7 +1013,7 @@
         <item>to slur someone\'s reputation</item>
         <item>an inhabitant; a regular visitor</item>
         <item>outcome; unraveling of the plot of a play or work of literature</item>
-        <item>to mock</item>
+        <item>to mock</item>                                                  <!--GROUP1-->
         <item>something derived; unoriginal</item>
         <item>to dry completely</item>
         <item>state of disuse</item>
@@ -1213,7 +1213,7 @@
         <item>collapse inward violently</item>
         <item>curse; damnation</item>
         <item>to attribute the fault to; relate to a particular cause or source</item>
-        <item>carelessly; unintentionally</item>
+        <item>carelessly; unintentionally</item>                               <!--GROUP2-->
         <item>having bodily form</item>
         <item>imperfectly formed or formulated</item>
         <item>state of not fitting</item>
@@ -1413,7 +1413,7 @@ sporadic illogical intermittent obvious contradictory compelling</item>
         <item>original; existing from the beginning</item>
         <item>untouched; uncorrupted</item>
         <item>honesty; high-mindness</item>
-        <item>posing a problem; doubtful</item>
+        <item>posing a problem; doubtful</item>                        <!--GROUP3-->
         <item>wasteful; extravagant; lavish</item>
         <item>deep, not superficial</item>
         <item>so high as to prevent the purchase or use of, forbidding</item>
@@ -1614,6 +1614,6 @@ sporadic illogical intermittent obvious contradictory compelling</item>
         <item>wallow or roll, toss about, be in turmoil</item>
         <item>fanciful, unpredictable</item>
         <item>vaguely longing, sadly thoughtful</item>
-        <item>one who is fanatically devoted to a cause</item>
+        <item>one who is fanatically devoted to a cause</item>                     <!--GROUP4-->
     </string-array>
 </resources>
