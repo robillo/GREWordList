@@ -31,11 +31,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
     @Override
     public void onBindViewHolder(View_Holder holder, int position) {
         holder.word.setText(list.get(position).getWord());
-        holder.meaning.setText(list.get(position).getWord());
+        holder.meaning.setText(list.get(position).getMeaning());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return list.size();
     }
 }

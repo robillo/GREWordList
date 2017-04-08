@@ -13,6 +13,7 @@ import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.controller.RecyclerViewAdapter;
 import com.appbusters.robinkamboj.grewordlist.model.Data;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -21,7 +22,6 @@ import java.util.List;
 public class WMListFragment extends Fragment {
 
     private RecyclerView recyclerView;
-    private RecyclerViewAdapter recyclerViewAdapter;
     private String[] words, meanings;
     private LinearLayoutManager layoutManager;
     private RecyclerViewAdapter adapter;
@@ -50,7 +50,7 @@ public class WMListFragment extends Fragment {
     }
 
     private List<Data> fillWithData(){
-        List<Data> data = null;
+        List<Data> data = new ArrayList<>();
 
         for(int i=0; i<200; i++){
             data.add(new Data(words[i], meanings[i], "DUMMY EXAMPLE which is supposed to be long, very LOOOOOOOOONG.....!"));
