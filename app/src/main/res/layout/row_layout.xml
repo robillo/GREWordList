@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5sp"
+    app:cardElevation="3sp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
 
-</LinearLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackShade"
+            android:text="Test Word"
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="5sp"
+            android:layout_margin="5sp"
+            android:id="@+id/word"
+            android:layout_toStartOf="@+id/bookmark"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlackShade"
+            android:text="Test Meaning Which Is Supposed To Be Very Loooooooooong."
+            android:fontFamily="sans-serif-smallcaps"
+            android:padding="5sp"
+            android:layout_margin="5sp"
+            android:layout_toStartOf="@+id/bookmark"
+            android:id="@+id/meaning"
+            android:layout_below="@id/word"/>
+
+        <ImageButton
+            android:id="@+id/bookmark"
+            android:layout_width="50sp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/star_big_on"
+            android:background="#000000"
+            android:layout_above="@+id/meaning"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Button"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
