@@ -362,13 +362,13 @@ public class WMListFragment extends Fragment {
                                     case 23:{
 //                                        assignIndex(23);
 //                                        setRV();
-                                        Toast.makeText(getActivity(), "No Words for letter X.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getActivity(), "No Words for letter X", Toast.LENGTH_SHORT).show();
                                         break;
                                     }
                                     case 24:{
 //                                        assignIndex(24);
 //                                        setRV();
-                                        Toast.makeText(getActivity(), "No Words for letter X.", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getActivity(), "No Words for letter Y", Toast.LENGTH_SHORT).show();
                                         break;
                                     }
                                     case 25:{
