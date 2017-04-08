@@ -29,7 +29,15 @@
             <item
                 android:id="@+id/group2"
                 android:icon="@android:drawable/ic_menu_sort_alphabetically"
-                android:title="Send" />
+                android:title="Group 2" />
+            <item
+                android:id="@+id/group3"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Group 3" />
+            <item
+                android:id="@+id/group4"
+                android:icon="@android:drawable/ic_menu_sort_alphabetically"
+                android:title="Group 4" />
         </menu>
     </item>
 
