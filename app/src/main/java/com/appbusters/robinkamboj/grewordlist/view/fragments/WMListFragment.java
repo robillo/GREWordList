@@ -13,6 +13,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.controller.RecyclerViewAdapter;
@@ -359,13 +360,15 @@ public class WMListFragment extends Fragment {
                                         break;
                                     }
                                     case 23:{
-                                        assignIndex(23);
-                                        setRV();
+//                                        assignIndex(23);
+//                                        setRV();
+                                        Toast.makeText(getActivity(), "No Words for letter X.", Toast.LENGTH_SHORT).show();
                                         break;
                                     }
                                     case 24:{
-                                        assignIndex(24);
-                                        setRV();
+//                                        assignIndex(24);
+//                                        setRV();
+                                        Toast.makeText(getActivity(), "No Words for letter X.", Toast.LENGTH_SHORT).show();
                                         break;
                                     }
                                     case 25:{
