@@ -1,6 +1,7 @@
 package com.appbusters.robinkamboj.grewordlist.view.fragments;
 
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
@@ -33,7 +34,7 @@ public class WMListFragment extends Fragment {
     private CharSequence[] items = {"Letter A", "Letter B", "Letter C", "Letter D", "Letter E",
             "Letter F", "Letter G", "Letter H", "Letter I", "Letter J", "Letter K", "Letter L",
             "Letter M", "Letter N", "Letter O", "Letter P", "Letter Q", "Letter R", "Letter S",
-            "Letter T", "Letter U", "Letter V", "Letter W", "Letter X", "Letter Y", "Letter Z" };
+            "Letter T", "Letter U", "Letter V", "Letter W", "Letter X", "Letter Y", "Letter Z"};
 
     public WMListFragment() {
         // Required empty public constructor
@@ -88,6 +89,136 @@ public class WMListFragment extends Fragment {
                 endIndex = 799;
                 break;
             }
+            case 0:{
+                startIndex = 0;
+                endIndex = 80;
+                break;
+            }
+            case 1:{
+                startIndex = 81;
+                endIndex = 103;
+                break;
+            }
+            case 2:{
+                startIndex = 104;
+                endIndex = 184;
+                break;
+            }
+            case 3:{
+                startIndex = 185;
+                endIndex = 245;
+                break;
+            }
+            case 4:{
+                startIndex = 246;
+                endIndex = 308;
+                break;
+            }
+            case 5:{
+                startIndex = 309;
+                endIndex = 366;
+                break;
+            }
+            case 6:{
+                startIndex = 367;
+                endIndex = 380;
+                break;
+            }
+            case 7:{
+                startIndex = 381;
+                endIndex = 440;
+                break;
+            }
+            case 8:{
+                startIndex = 441;
+                endIndex = 446;
+                break;
+            }
+            case 9:{
+                startIndex = 447;
+                endIndex = 447;
+                break;
+            }
+            case 10:{
+                startIndex = 448;
+                endIndex = 473;
+                break;
+            }
+            case 11:{
+                startIndex = 474;
+                endIndex = 511;
+                break;
+            }
+            case 12:{
+                startIndex = 512;
+                endIndex = 520;
+                break;
+            }
+            case 13:{
+                startIndex = 521;
+                endIndex = 537;
+                break;
+            }
+            case 14:{
+                startIndex = 538;
+                endIndex = 612;
+                break;
+            }
+            case 15:{
+                startIndex = 613;
+                endIndex = 620;
+                break;
+            }
+            case 16:{
+                startIndex = 621;
+                endIndex = 655;
+                break;
+            }
+            case 17:{
+                startIndex = 656;
+                endIndex = 731;
+                break;
+            }
+            case 18:{
+                startIndex = 732;
+                endIndex = 763;
+                break;
+            }
+            case 19:{
+                startIndex = 764;
+                endIndex = 769;
+                break;
+            }
+            case 20:{
+                startIndex = 770;
+                endIndex = 793;
+                break;
+            }
+            case 21:{
+                startIndex = 794;
+                endIndex = 798;
+                break;
+            }
+            case 22:{
+
+
+                break;
+            }
+            case 23:{
+
+
+                break;
+            }
+            case 24:{
+
+
+                break;
+            }
+            case 25:{
+                startIndex = 799;
+                endIndex = 799;
+                break;
+            }
         }
     }
 
@@ -105,7 +236,15 @@ public class WMListFragment extends Fragment {
         switch (id){
             case R.id.action_sort:{
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
+                builder.setTitle("Choose Sorting Option:")
+                        .setItems(items, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int which) {
+                                switch (which){
+                                    case 0:
+                                }
+                            }
+                        });
                 break;
             }
         }
@@ -114,7 +253,6 @@ public class WMListFragment extends Fragment {
     }
 
     private void setRV(){
-        assignIndex(displayCode);
         List<Data> data = fillWithData();
         layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);

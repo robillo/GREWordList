@@ -10,7 +10,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string-array name="words">
-        <item>1.abate</item>
+        <item>1.abate</item>               <!--A-->
         <item>2.abdicate</item>
         <item>3.aberrant</item>
         <item>4.abeyance</item>
@@ -90,8 +90,8 @@
         <item>78.aver</item>
         <item>79.avocation</item>
         <item>80.avuncular</item>
-        <item>81.axiomatic</item>
-        <item>82.bacchanalian</item>
+        <item>81.axiomatic</item>               <!--A-->
+        <item>82.bacchanalian</item>               <!--B-->
         <item>83.banal</item>
         <item>84.banter</item>
         <item>85.bard</item>
@@ -113,8 +113,8 @@
         <item>101.bucolic</item>
         <item>102.burgeon</item>
         <item>103.burnish</item>
-        <item>104.buttress</item>
-        <item>105.cacophonous</item>
+        <item>104.buttress</item>               <!--B-->
+        <item>105.cacophonous</item>               <!--C-->
         <item>106.cadge</item>
         <item>107.callous</item>
         <item>108.calumny</item>
@@ -194,8 +194,8 @@
         <item>182.cozen</item>
         <item>183.craven</item>
         <item>184.credence</item>
-        <item>185.credo</item>
-        <item>186.daunt</item>
+        <item>185.credo</item>               <!--C-->
+        <item>186.daunt</item>               <!--D-->
         <item>187.dearth</item>
         <item>188.debauchery</item>
         <item>189.decorum</item>
@@ -255,8 +255,8 @@
         <item>243.dogmatic</item>
         <item>244.dormant</item>
         <item>245.dross</item>
-        <item>246.dupe</item>
-        <item>247.ebullient</item>
+        <item>246.dupe</item>               <!--D-->
+        <item>247.ebullient</item>               <!--E-->
         <item>248.eclectic</item>
         <item>249.effervescence</item>
         <item>250.effete</item>
@@ -318,8 +318,8 @@
         <item>306.extirpate</item>
         <item>307.extraneous</item>
         <item>308.extrapolation</item>
-        <item>309.extrinsic</item>
-        <item>310.facetious</item>
+        <item>309.extrinsic</item>               <!--E-->
+        <item>310.facetious</item>               <!--F-->
         <item>311.facilitate</item>
         <item>312.factotum</item>
         <item>313.fallacious</item>
@@ -359,8 +359,8 @@
         <item>347.fulminate</item>
         <item>348.fulsome</item>
         <item>349.fusion</item>
-        <item>350.futile</item>
-        <item>351.gainsay</item>
+        <item>350.futile</item>               <!--F-->
+        <item>351.gainsay</item>               <!--G-->
         <item>352.gambol</item>
         <item>353.garrulous</item>
         <item>354.gauche</item>
@@ -376,8 +376,8 @@
         <item>364.guileless</item>
         <item>365.guise</item>
         <item>366.gullible</item>
-        <item>367.gustatory</item>
-        <item>368.halcyon</item>
+        <item>367.gustatory</item>               <!--G-->
+        <item>368.halcyon</item>               <!--H-->
         <item>369.hallowed</item>
         <item>370harangue</item>
         <item>371.harrowing</item>
@@ -390,8 +390,8 @@
         <item>378.homeostasis</item>
         <item>379.homily</item>
         <item>380.homogeneous</item>
-        <item>381.hyperbole</item>
-        <item>382.iconoclastic</item>
+        <item>381.hyperbole</item>               <!--H-->
+        <item>382.iconoclastic</item>               <!--I-->
         <item>383.idolatry</item>
         <item>384.igneous</item>
         <item>385.imbroglio</item>
@@ -450,15 +450,15 @@
         <item>438.irascible</item>
         <item>439.irresolute</item>
         <item>440.itinerant</item>
-        <item>441.itinerary</item>
-        <item>442.jaundiced</item>
+        <item>441.itinerary</item>               <!--I-->
+        <item>442.jaundiced</item>               <!--J-->
         <item>443.jibe</item>
         <item>444.jocose</item>
         <item>445.juggernaut</item>
         <item>446.junta</item>
-        <item>447.juxtapose</item>
-        <item>448.kudos</item>
-        <item>449.labile</item>
+        <item>447.juxtapose</item>               <!--J-->
+        <item>448.kudos</item>               <!--K-->
+        <item>449.labile</item>               <!--L-->
         <item>450.laconic</item>
         <item>451.lambaste</item>
         <item>452.lascivious</item>
@@ -483,8 +483,8 @@
         <item>471.lucid</item>
         <item>472.lucre</item>
         <item>473.luminous</item>
-        <item>474.lustrous</item>
-        <item>475.Machiavellian</item>
+        <item>474.lustrous</item>               <!--L-->
+        <item>475.machiavellian</item>               <!--M-->
         <item>476.machinations</item>
         <item>477.maelstrom</item>
         <item>478.magnanimity</item>
@@ -521,8 +521,8 @@
         <item>509.morose</item>
         <item>510.motley</item>
         <item>511.multifarious</item>
-        <item>512.mundane</item>
-        <item>513.necromancy</item>
+        <item>512.mundane</item>               <!--M-->
+        <item>513.necromancy</item>               <!--N-->
         <item>514.negate</item>
         <item>515.neologism</item>
         <item>516.neophyte</item>
@@ -530,8 +530,8 @@
         <item>518.nonplussed</item>
         <item>519.nostalgia</item>
         <item>520.nostrum</item>
-        <item>521.nugatory</item>
-        <item>522.obdurate</item>
+        <item>521.nugatory</item>               <!--N-->
+        <item>522.obdurate</item>               <!--O-->
         <item>523.obsequious</item>
         <item>524.obsequy</item>
         <item>525.obviate</item>
@@ -547,8 +547,8 @@
         <item>535.ornithologist</item>
         <item>536.oscillate</item>
         <item>537.ostentatious</item>
-        <item>538.overweening</item>
-        <item>539.paean</item>
+        <item>538.overweening</item>               <!--O-->
+        <item>539.paean</item>               <!--P-->
         <item>540.paleontology</item>
         <item>541.pallid</item>
         <item>542.panegyric</item>
@@ -622,17 +622,17 @@
         <item>610.punctilious</item>
         <item>611.pungent</item>
         <item>612.purport</item>
-        <item>613.pusillanimous</item>
-        <item>614.quagmire</item>
+        <item>613.pusillanimous</item>               <!--P-->
+        <item>614.quagmire</item>               <!--Q-->
         <item>615.quail</item>
         <item>616.qualified</item>
         <item>617.qualm</item>
         <item>618.query</item>
         <item>619.quibble</item>
         <item>620.quiescent</item>
-        <item>621.quorum</item>
-        <item>622.raconteur</item>
-        <item>623.0rail</item>
+        <item>621.quorum</item>               <!--Q-->
+        <item>622.raconteur</item>               <!--R-->
+        <item>623.rail</item>
         <item>624.raimen</item>
         <item>625.ramification</item>
         <item>626.rarefied</item>
@@ -665,8 +665,8 @@
         <item>653.rococo</item>
         <item>654.rubric</item>
         <item>655.rue</item>
-        <item>656.ruse</item>
-        <item>657.sage</item>
+        <item>656.ruse</item>               <!--R-->
+        <item>657.sage</item>               <!--S-->
         <item>658.salacious</item>
         <item>659.salubrious</item>
         <item>660.salutary</item>
@@ -740,8 +740,8 @@
         <item>728.supplicant</item>
         <item>729.supposition</item>
         <item>730.syllogism</item>
-        <item>731.sylvan</item>
-        <item>732.tacit</item>
+        <item>731.sylvan</item>               <!--S-->
+        <item>732.tacit</item>               <!--T-->
         <item>733.talisman</item>
         <item>734.tangential</item>
         <item>735.tautology</item>
@@ -773,14 +773,14 @@
         <item>761.tumid</item>
         <item>762.turbid</item>
         <item>763.turgid</item>
-        <item>764.tutelary</item>
-        <item>765.uncanny</item>
+        <item>764.tutelary</item>               <!--T-->
+        <item>765.uncanny</item>               <!--U-->
         <item>766.undulating</item>
         <item>767.unfeigned</item>
         <item>768.untenable</item>
         <item>769.untoward</item>
-        <item>770.usury</item>
-        <item>771.vacillate</item>
+        <item>770.usury</item>               <!--U-->
+        <item>771.vacillate</item>               <!--V-->
         <item>772.vacuous</item>
         <item>773.valedictory</item>
         <item>774.vapid</item>
@@ -803,13 +803,13 @@
         <item>791.vivisection</item>
         <item>792.vogue</item>
         <item>793.volatile</item>
-        <item>794.vortex</item>
-        <item>795.warranted</item>
+        <item>794.vortex</item>               <!--V-->
+        <item>795.warranted</item>               <!--W-->
         <item>796.wary</item>
         <item>797.welter</item>
         <item>798.whimsical</item>
-        <item>799.wistful</item>
-        <item>800.zealot</item>      <!--GROUP4-->
+        <item>799.wistful</item>               <!--W-->
+        <item>800.zealot</item>      <!--GROUP4-->               <!--Z-->
     </string-array>
 
     <string-array name="meanings">
