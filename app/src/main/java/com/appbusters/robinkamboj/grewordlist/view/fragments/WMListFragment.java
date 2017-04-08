@@ -25,7 +25,7 @@ public class WMListFragment extends Fragment {
     private String[] words, meanings;
     private LinearLayoutManager layoutManager;
     private RecyclerViewAdapter adapter;
-    private int displayCode;
+    private int displayCode, startIndex, endIndex;
 
     public WMListFragment() {
         // Required empty public constructor
@@ -37,6 +37,7 @@ public class WMListFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wmlist, container, false);
         displayCode = getArguments().getInt("displayCode");
+        assignIndex();
 
         words = getActivity().getResources().getStringArray(R.array.words);
         meanings = getActivity().getResources().getStringArray(R.array.meanings);
@@ -53,10 +54,20 @@ public class WMListFragment extends Fragment {
     private List<Data> fillWithData(){
         List<Data> data = new ArrayList<>();
 
-        for(int i=0; i<200; i++){
+        for(int i=0; i<=100; i++){
             data.add(new Data(words[i], meanings[i], "DUMMY EXAMPLE which is supposed to be long, very LOOOOOOOOONG.....!"));
         }
 
         return data;
+    }
+
+    private void assignIndex(){
+        switch (displayCode){
+            case 100:{
+                startIndex = 0;
+                endIndex = 199;
+                break;
+            }
+        }
     }
 }
