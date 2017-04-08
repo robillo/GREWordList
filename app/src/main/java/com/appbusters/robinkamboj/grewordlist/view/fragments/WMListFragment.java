@@ -45,6 +45,8 @@ public class WMListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wmlist, container, false);
+        setHasOptionsMenu(true);
+
         displayCode = getArguments().getInt("displayCode");
         assignIndex(displayCode);
 
@@ -116,92 +118,92 @@ public class WMListFragment extends Fragment {
             }
             case 5:{
                 startIndex = 309;
-                endIndex = 366;
+                endIndex = 349;
                 break;
             }
             case 6:{
+                startIndex = 350;
+                endIndex = 366;
+                break;
+            }
+            case 7:{
                 startIndex = 367;
                 endIndex = 380;
                 break;
             }
-            case 7:{
+            case 8:{
                 startIndex = 381;
                 endIndex = 440;
                 break;
             }
-            case 8:{
+            case 9:{
                 startIndex = 441;
                 endIndex = 446;
                 break;
             }
-            case 9:{
+            case 10:{
                 startIndex = 447;
                 endIndex = 447;
                 break;
             }
-            case 10:{
+            case 11:{
                 startIndex = 448;
                 endIndex = 473;
                 break;
             }
-            case 11:{
+            case 12:{
                 startIndex = 474;
                 endIndex = 511;
                 break;
             }
-            case 12:{
+            case 13:{
                 startIndex = 512;
                 endIndex = 520;
                 break;
             }
-            case 13:{
+            case 14:{
                 startIndex = 521;
                 endIndex = 537;
                 break;
             }
-            case 14:{
+            case 15:{
                 startIndex = 538;
                 endIndex = 612;
                 break;
             }
-            case 15:{
+            case 16:{
                 startIndex = 613;
                 endIndex = 620;
                 break;
             }
-            case 16:{
+            case 17:{
                 startIndex = 621;
                 endIndex = 655;
                 break;
             }
-            case 17:{
+            case 18:{
                 startIndex = 656;
                 endIndex = 731;
                 break;
             }
-            case 18:{
+            case 19:{
                 startIndex = 732;
                 endIndex = 763;
                 break;
             }
-            case 19:{
+            case 20:{
                 startIndex = 764;
                 endIndex = 769;
                 break;
             }
-            case 20:{
+            case 21:{
                 startIndex = 770;
                 endIndex = 793;
                 break;
             }
-            case 21:{
+            case 22:{
                 startIndex = 794;
                 endIndex = 798;
-                break;
-            }
-            case 22:{
-
-
                 break;
             }
             case 23:{
@@ -241,10 +243,140 @@ public class WMListFragment extends Fragment {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int which) {
                                 switch (which){
-                                    case 0:
+                                    case 0:{
+                                        assignIndex(0);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 1:{
+                                        assignIndex(1);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 2:{
+                                        assignIndex(2);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 3:{
+                                        assignIndex(3);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 4:{
+                                        assignIndex(4);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 5:{
+                                        assignIndex(5);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 6:{
+                                        assignIndex(6);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 7:{
+                                        assignIndex(7);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 8:{
+                                        assignIndex(8);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 9:{
+                                        assignIndex(9);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 10:{
+                                        assignIndex(10);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 11:{
+                                        assignIndex(11);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 12:{
+                                        assignIndex(12);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 13:{
+                                        assignIndex(13);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 14:{
+                                        assignIndex(14);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 15:{
+                                        assignIndex(15);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 16:{
+                                        assignIndex(16);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 17:{
+                                        assignIndex(17);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 18:{
+                                        assignIndex(18);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 19:{
+                                        assignIndex(19);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 20:{
+                                        assignIndex(20);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 21:{
+                                        assignIndex(21);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 22:{
+                                        assignIndex(22);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 23:{
+                                        assignIndex(23);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 24:{
+                                        assignIndex(24);
+                                        setRV();
+                                        break;
+                                    }
+                                    case 25:{
+                                        assignIndex(25);
+                                        setRV();
+                                        break;
+                                    }
+
                                 }
                             }
-                        });
+                        }).show();
                 break;
             }
         }
