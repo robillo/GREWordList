@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private FragmentTransaction fragmentTransaction;
+    private int fNumber = 0; //fragment number
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +42,8 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
-        addWMListFragment(100);
+        setFragment();
+//        addBookmarksFragment();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -130,6 +132,24 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void addWMListFragment(int displayCode){
+        switch (displayCode){
+            case 100:{
+                fNumber = 3;
+                break;
+            }
+            case 101:{
+                fNumber = 4;
+                break;
+            }
+            case 102:{
+                fNumber = 5;
+                break;
+            }
+            case 103:{
+                fNumber = 6;
+                break;
+            }
+        }
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
         WMListFragment wmListFragment = new WMListFragment();
         Bundle args = new Bundle();
@@ -141,6 +161,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void addWOTDFragment(){
+        fNumber = 1;
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         WOTDFragment wotdFragment = new WOTDFragment();
         fragmentTransaction.replace(R.id.fragment_container, wotdFragment);
@@ -148,6 +169,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void addFlashCardsFragment(){
+        fNumber = 2;
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         FlashCardsFragment flashCardsFragment = new FlashCardsFragment();
         fragmentTransaction.replace(R.id.fragment_container, flashCardsFragment);
@@ -155,9 +177,43 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void addBookmarksFragment(){
+        fNumber = 0;
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         YourBookmarksFragment yourBookmarksFragment = new YourBookmarksFragment();
         fragmentTransaction.replace(R.id.fragment_container, yourBookmarksFragment);
         fragmentTransaction.commit();
+    }
+
+    private void setFragment(){
+        switch (fNumber){
+            case 0:{
+                addBookmarksFragment();
+                break;
+            }
+            case 1:{
+                addWOTDFragment();
+                break;
+            }
+            case 2:{
+                addFlashCardsFragment();
+                break;
+            }
+            case 3:{
+                addWMListFragment(100);
+                break;
+            }
+            case 4:{
+                addWMListFragment(101);
+                break;
+            }
+            case 5:{
+                addWMListFragment(102);
+                break;
+            }
+            case 6:{
+                addWMListFragment(103);
+                break;
+            }
+        }
     }
 }
