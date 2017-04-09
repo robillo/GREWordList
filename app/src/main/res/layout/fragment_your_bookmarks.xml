@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="?android:actionBarSize"
-    tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.WOTDFragment">
+    tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.YourBookmarksFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

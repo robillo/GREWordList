@@ -16,6 +16,7 @@ import android.view.MenuItem;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.WMListFragment;
+import com.appbusters.robinkamboj.grewordlist.view.fragments.WOTDFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
             case R.id.word_of_the_day:{
-
+                addWOTDFragment();
                 break;
             }
             case R.id.flash_cards:{
@@ -134,6 +135,13 @@ public class MainActivity extends AppCompatActivity
         wmListFragment.setArguments(args);
         fragmentTransaction.replace(R.id.fragment_container, wmListFragment);
         fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
+
+    private void addWOTDFragment(){
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        WOTDFragment wotdFragment = new WOTDFragment();
+        fragmentTransaction.replace(R.id.fragment_container, wotdFragment);
         fragmentTransaction.commit();
     }
 }
