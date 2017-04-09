@@ -3,21 +3,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/your_bookmarks"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Your Bookmarks" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/word_of_the_day"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Word Of The Day" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/flash_cards"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Flash Cards" />
     </group>
 
     <item android:title="Groups">
@@ -25,19 +21,19 @@
             <item
                 android:id="@+id/group1"
                 android:icon="@android:drawable/ic_menu_sort_alphabetically"
-                android:title="Group 1" />
+                android:title="Group 1 [1 to 200]" />
             <item
                 android:id="@+id/group2"
                 android:icon="@android:drawable/ic_menu_sort_alphabetically"
-                android:title="Group 2" />
+                android:title="Group 2 [201 to 400]" />
             <item
                 android:id="@+id/group3"
                 android:icon="@android:drawable/ic_menu_sort_alphabetically"
-                android:title="Group 3" />
+                android:title="Group 3 [401 to 600]" />
             <item
                 android:id="@+id/group4"
                 android:icon="@android:drawable/ic_menu_sort_alphabetically"
-                android:title="Group 4" />
+                android:title="Group 4 [601 to 800]" />
         </menu>
     </item>
 

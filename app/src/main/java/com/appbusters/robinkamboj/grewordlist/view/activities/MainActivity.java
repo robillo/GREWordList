@@ -91,6 +91,18 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         switch (id){
+            case R.id.your_bookmarks:{
+
+                break;
+            }
+            case R.id.word_of_the_day:{
+
+                break;
+            }
+            case R.id.flash_cards:{
+
+                break;
+            }
             case R.id.group1:{
                 addWMListFragment(100);
                 break;
