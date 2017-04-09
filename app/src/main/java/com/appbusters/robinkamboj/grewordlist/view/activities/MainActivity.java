@@ -15,8 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.appbusters.robinkamboj.grewordlist.R;
+import com.appbusters.robinkamboj.grewordlist.view.fragments.FlashCardsFragment;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.WMListFragment;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.WOTDFragment;
+import com.appbusters.robinkamboj.grewordlist.view.fragments.YourBookmarksFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -93,7 +95,7 @@ public class MainActivity extends AppCompatActivity
 
         switch (id){
             case R.id.your_bookmarks:{
-
+                addBookmarksFragment();
                 break;
             }
             case R.id.word_of_the_day:{
@@ -101,7 +103,7 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
             case R.id.flash_cards:{
-
+                addFlashCardsFragment();
                 break;
             }
             case R.id.group1:{
@@ -142,6 +144,20 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         WOTDFragment wotdFragment = new WOTDFragment();
         fragmentTransaction.replace(R.id.fragment_container, wotdFragment);
+        fragmentTransaction.commit();
+    }
+
+    private void addFlashCardsFragment(){
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        FlashCardsFragment flashCardsFragment = new FlashCardsFragment();
+        fragmentTransaction.replace(R.id.fragment_container, flashCardsFragment);
+        fragmentTransaction.commit();
+    }
+
+    private void addBookmarksFragment(){
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        YourBookmarksFragment yourBookmarksFragment = new YourBookmarksFragment();
+        fragmentTransaction.replace(R.id.fragment_container, yourBookmarksFragment);
         fragmentTransaction.commit();
     }
 }
