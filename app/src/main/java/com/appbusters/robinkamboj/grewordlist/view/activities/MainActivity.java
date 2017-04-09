@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private FragmentTransaction fragmentTransaction;
-    private int fNumber = 0; //fragment number
+    private int fNumber = 0;   //fragment number
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +43,8 @@ public class MainActivity extends AppCompatActivity
 //            }
 //        });
 
+        Log.e("SET FRAGMENT CALLED", "CALLED");
         setFragment();
-//        addBookmarksFragment();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -53,6 +54,10 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+//        Log.e("BEFORE", "SET_FRAGMENT");
+//        setFragment();
+//        Log.e("AFTER", "SET_FRAGMENT");
     }
 
     @Override
@@ -75,6 +80,8 @@ public class MainActivity extends AppCompatActivity
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         fNumber = savedInstanceState.getInt("fNumber");
+        Log.e("FRAGMENT NUMBER", " " + fNumber);
+        setFragment();
     }
 
     //    @Override
@@ -227,5 +234,6 @@ public class MainActivity extends AppCompatActivity
                 break;
             }
         }
+        Log.e("DURING", "SET_FRAGMENT");
     }
 }
