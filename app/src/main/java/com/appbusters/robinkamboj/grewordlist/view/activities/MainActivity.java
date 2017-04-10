@@ -484,6 +484,110 @@ public class MainActivity extends AppCompatActivity
                 addWMListFragment(103);
                 break;
             }
+            case 7:{
+                addWMListFragment(0);
+                break;
+            }
+            case 8:{
+                addWMListFragment(1);
+                break;
+            }
+            case 9:{
+                addWMListFragment(2);
+                break;
+            }
+            case 10:{
+                addWMListFragment(3);
+                break;
+            }
+            case 11:{
+                addWMListFragment(4);
+                break;
+            }
+            case 12:{
+                addWMListFragment(5);
+                break;
+            }
+            case 13:{
+                addWMListFragment(6);
+                break;
+            }
+            case 14:{
+                addWMListFragment(7);
+                break;
+            }
+            case 15:{
+                addWMListFragment(8);
+                break;
+            }
+            case 16:{
+                addWMListFragment(9);
+                break;
+            }
+            case 17:{
+                addWMListFragment(10);
+                break;
+            }
+            case 18:{
+                addWMListFragment(11);
+                break;
+            }
+            case 19:{
+                addWMListFragment(12);
+                break;
+            }
+            case 20:{
+                addWMListFragment(13);
+                break;
+            }
+            case 21:{
+                addWMListFragment(14);
+                break;
+            }
+            case 22:{
+                addWMListFragment(15);
+                break;
+            }
+            case 23:{
+                addWMListFragment(16);
+                break;
+            }
+            case 24:{
+                addWMListFragment(17);
+                break;
+            }
+            case 25:{
+                addWMListFragment(18);
+                break;
+            }
+            case 26:{
+                addWMListFragment(19);
+                break;
+            }
+            case 27:{
+                addWMListFragment(20);
+                break;
+            }
+            case 28:{
+                addWMListFragment(21);
+                break;
+            }
+            case 29:{
+                addWMListFragment(22);
+                break;
+            }
+            case 30:{
+                addWMListFragment(23);
+                break;
+            }
+            case 31:{
+                addWMListFragment(24);
+                break;
+            }
+            case 32:{
+                addWMListFragment(25);
+                break;
+            }
         }
         Log.e("DURING", "SET_FRAGMENT");
     }
