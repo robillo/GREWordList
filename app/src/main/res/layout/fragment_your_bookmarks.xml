@@ -1,14 +1,52 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="?android:actionBarSize"
-    tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.YourBookmarksFragment">
+    android:layout_height="match_parent">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:background="#FFF"
+        android:id="@+id/layout_alternate">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="2"
+            android:src="@drawable/oops"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:text="Oops!"
+            android:fontFamily="casual"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:text="It Seems Like You Haven't Saved Any Items Yet."
+            android:fontFamily="casual"
+            android:gravity="center_horizontal"
+            android:padding="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView">
+
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>
