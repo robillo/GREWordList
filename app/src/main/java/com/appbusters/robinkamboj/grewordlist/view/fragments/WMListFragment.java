@@ -32,10 +32,6 @@ public class WMListFragment extends Fragment {
     private LinearLayoutManager layoutManager;
     private RecyclerViewAdapter adapter;
     private int displayCode, startIndex, endIndex;
-    private CharSequence[] items = {"Letter A", "Letter B", "Letter C", "Letter D", "Letter E",
-            "Letter F", "Letter G", "Letter H", "Letter I", "Letter J", "Letter K", "Letter L",
-            "Letter M", "Letter N", "Letter O", "Letter P", "Letter Q", "Letter R", "Letter S",
-            "Letter T", "Letter U", "Letter V", "Letter W", "Letter X", "Letter Y", "Letter Z"};
 
     public WMListFragment() {
         // Required empty public constructor
@@ -46,7 +42,7 @@ public class WMListFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wmlist, container, false);
-        setHasOptionsMenu(true);
+//        setHasOptionsMenu(true);
 
         displayCode = getArguments().getInt("displayCode");
         assignIndex(displayCode);
@@ -223,168 +219,6 @@ public class WMListFragment extends Fragment {
                 break;
             }
         }
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(R.menu.main, menu);
-        super.onCreateOptionsMenu(menu, inflater);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        switch (id){
-            case R.id.action_sort:{
-                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setTitle("Choose Sorting Option:")
-                        .setItems(items, new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialogInterface, int which) {
-                                switch (which){
-                                    case 0:{
-                                        assignIndex(0);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 1:{
-                                        assignIndex(1);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 2:{
-                                        assignIndex(2);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 3:{
-                                        assignIndex(3);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 4:{
-                                        assignIndex(4);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 5:{
-                                        assignIndex(5);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 6:{
-                                        assignIndex(6);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 7:{
-                                        assignIndex(7);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 8:{
-                                        assignIndex(8);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 9:{
-                                        assignIndex(9);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 10:{
-                                        assignIndex(10);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 11:{
-                                        assignIndex(11);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 12:{
-                                        assignIndex(12);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 13:{
-                                        assignIndex(13);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 14:{
-                                        assignIndex(14);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 15:{
-                                        assignIndex(15);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 16:{
-                                        assignIndex(16);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 17:{
-                                        assignIndex(17);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 18:{
-                                        assignIndex(18);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 19:{
-                                        assignIndex(19);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 20:{
-                                        assignIndex(20);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 21:{
-                                        assignIndex(21);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 22:{
-                                        assignIndex(22);
-                                        setRV();
-                                        break;
-                                    }
-                                    case 23:{
-//                                        assignIndex(23);
-//                                        setRV();
-                                        Toast.makeText(getActivity(), "No Words for letter X", Toast.LENGTH_SHORT).show();
-                                        break;
-                                    }
-                                    case 24:{
-//                                        assignIndex(24);
-//                                        setRV();
-                                        Toast.makeText(getActivity(), "No Words for letter Y", Toast.LENGTH_SHORT).show();
-                                        break;
-                                    }
-                                    case 25:{
-                                        assignIndex(25);
-                                        setRV();
-                                        break;
-                                    }
-
-                                }
-                            }
-                        }).show();
-                break;
-            }
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 
     private void setRV(){
