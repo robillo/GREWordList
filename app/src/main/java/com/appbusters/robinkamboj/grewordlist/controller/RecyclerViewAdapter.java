@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.model.Data;
@@ -30,6 +32,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
 
     @Override
     public void onBindViewHolder(View_Holder holder, int position) {
+        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
+        holder.itemView.setAnimation(animation);
         holder.word.setText(list.get(position).getWord());
         holder.meaning.setText(list.get(position).getMeaning());
     }
