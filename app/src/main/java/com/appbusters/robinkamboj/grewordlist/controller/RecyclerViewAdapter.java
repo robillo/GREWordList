@@ -17,7 +17,6 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
 
     private List<Data> list = Collections.emptyList();
-    private String word, meaning, example;
     private Context context;
 
     public RecyclerViewAdapter(List<Data> list, Context context) {

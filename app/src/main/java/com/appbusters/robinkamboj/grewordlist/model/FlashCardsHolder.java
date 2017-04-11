@@ -8,7 +8,7 @@ import com.appbusters.robinkamboj.grewordlist.R;
 
 public class FlashCardsHolder extends RecyclerView.ViewHolder{
 
-    TextView meaning;
+    public TextView meaning;
 
     public FlashCardsHolder(View itemView) {
         super(itemView);
