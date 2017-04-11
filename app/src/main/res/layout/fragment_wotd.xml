@@ -1,44 +1,37 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="?android:actionBarSize"
     tools:context="com.appbusters.robinkamboj.grewordlist.view.fragments.WOTDFragment">
-
-    <TextView
-        android:id="@+id/one"
-        android:layout_width="match_parent"
-        android:layout_height="?android:actionBarSize"
-        android:background="@color/colorPrimaryLight"
-        android:text="Word Of The Day"
-        android:textSize="35sp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@color/colorWhiteShade"/>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/one">
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="?android:actionBarSize"
-            android:background="@color/colorPrimaryLight"/>
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="12sp"
+            android:layout_margin="10sp"
             app:cardCornerRadius="5sp"
             app:cardElevation="5sp"
             android:alpha="0.9">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Word Of The Day"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:padding="10sp"
+                    android:textColor="@color/colorWhiteShade"
+                    android:background="@color/colorPrimaryLight"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
 
         </android.support.v7.widget.CardView>
 
-    </FrameLayout>
-
-</RelativeLayout>
+</LinearLayout>
