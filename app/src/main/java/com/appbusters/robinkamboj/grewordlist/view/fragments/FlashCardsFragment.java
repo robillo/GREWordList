@@ -3,6 +3,7 @@ package com.appbusters.robinkamboj.grewordlist.view.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,8 +36,12 @@ public class FlashCardsFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_flash_cards, container, false);
 
-        recyclerView = (RecyclerView) v.findViewById(R.id.recyclerview);
         data = fillWithData();
+
+        recyclerView = (RecyclerView) v.findViewById(R.id.recyclerview);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        adapter = new FlashCardsAdapter(data, getActivity());
+        recyclerView.setAdapter(adapter);
 
         return v;
     }

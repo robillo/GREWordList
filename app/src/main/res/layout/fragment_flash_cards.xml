@@ -32,9 +32,9 @@
         android:layout_height="wrap_content"
         android:text="Pick The Correct Meaning for the Word:"
         android:fontFamily="casual"
-        android:textSize="20sp"
+        android:textSize="14sp"
         android:gravity="center"
-        android:padding="10sp"
+        android:padding="3sp"
         android:textColor="@color/colorBlackShade"/>
 
     <android.support.v7.widget.RecyclerView
