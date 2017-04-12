@@ -20,6 +20,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
     private List<Data> list = Collections.emptyList();
     private Context context;
 
+    private String word, meaning, example;
+    private Boolean isBookmarked;
+
     public RecyclerViewAdapter(List<Data> list, Context context) {
         this.list = list;
         this.context = context;
@@ -32,17 +35,23 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
 
     @Override
     public void onBindViewHolder(final View_Holder holder, int position) {
-        holder.word.setText(list.get(position).getWord());
-        holder.meaning.setText(list.get(position).getMeaning());
+
+        word = list.get(position).getWord();
+        meaning = list.get(position).getMeaning();
+        example = list.get(position).getExample();
+        isBookmarked = true;
+
+        holder.word.setText(word);
+        holder.meaning.setText(meaning);
 
         holder.setClickListener(new ItemClickListener() {
             @Override
             public void onClick(View v, int position, boolean isLongClick) {
                 if(!isLongClick){
-                    holder.intent();
+                    holder.intent(word, meaning, example, isBookmarked);
                 }
                 else {
-                    holder.intent();
+                    holder.intent(word, meaning, example, isBookmarked);
                 }
             }
         });

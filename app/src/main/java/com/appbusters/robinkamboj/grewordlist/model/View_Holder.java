@@ -45,7 +45,12 @@ public class View_Holder extends RecyclerView.ViewHolder implements View.OnClick
         return false;
     }
 
-    public void intent(){
-        context.startActivity(new Intent(context, DetailActivity.class));
+    public void intent(String word, String meaning, String example, boolean isBookmarked){
+        Intent i = new Intent(context, DetailActivity.class);
+        i.putExtra("word", word);
+        i.putExtra("meaning", meaning);
+        i.putExtra("example", example);
+        i.putExtra("isBookmarked", isBookmarked);
+        context.startActivity(i);
     }
 }
