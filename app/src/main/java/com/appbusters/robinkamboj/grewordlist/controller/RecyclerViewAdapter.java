@@ -32,8 +32,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
 
     @Override
     public void onBindViewHolder(final View_Holder holder, int position) {
-        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
-        holder.itemView.setAnimation(animation);
         holder.word.setText(list.get(position).getWord());
         holder.meaning.setText(list.get(position).getMeaning());
 
@@ -48,6 +46,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
                 }
             }
         });
+
+//        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
+//        holder.itemView.setAnimation(animation);
     }
 
     @Override
