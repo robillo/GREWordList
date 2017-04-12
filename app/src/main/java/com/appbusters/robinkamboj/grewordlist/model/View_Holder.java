@@ -1,6 +1,7 @@
 package com.appbusters.robinkamboj.grewordlist.model;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageButton;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.controller.ItemClickListener;
+import com.appbusters.robinkamboj.grewordlist.view.activities.DetailActivity;
 
 public class View_Holder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener{
 
@@ -41,5 +43,9 @@ public class View_Holder extends RecyclerView.ViewHolder implements View.OnClick
     public boolean onLongClick(View view) {
         clickListener.onClick(view, getAdapterPosition(), true);
         return false;
+    }
+
+    public void intent(){
+        context.startActivity(new Intent(context, DetailActivity.class));
     }
 }
