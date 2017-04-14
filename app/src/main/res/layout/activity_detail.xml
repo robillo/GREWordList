@@ -85,7 +85,7 @@
                             android:layout_margin="5dp"
                             android:padding="5sp"
                             android:text="WORD:"
-                            android:textColor="@color/colorAccentLight"
+                            android:textColor="@color/colorAccent"
                             android:gravity="center"
                             android:textStyle="normal|bold" />
 
@@ -110,7 +110,7 @@
                             android:padding="5sp"
                             android:text="MEANING:"
                             android:gravity="center"
-                            android:textColor="@color/colorAccentLight"
+                            android:textColor="@color/colorAccent"
                             android:textStyle="normal|bold" />
 
                         <TextView
@@ -133,7 +133,7 @@
                             android:layout_margin="5dp"
                             android:padding="5sp"
                             android:text="EXAMPLE:"
-                            android:textColor="@color/colorAccentLight"
+                            android:textColor="@color/colorAccent"
                             android:gravity="center"
                             android:textStyle="normal|bold" />
 
