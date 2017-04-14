@@ -57,8 +57,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
             }
         });
 
-        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
-        holder.itemView.setAnimation(animation);
+//        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
+//        holder.itemView.setAnimation(animation);
     }
 
     @Override

@@ -49,7 +49,7 @@ public class WOTDFragment extends Fragment {
 
         wordtv.setText(word);
         meaningtv.setText(meaning);
-        exampletv.setText(" ");
+        exampletv.setText("Test Example");
 
         return v;
     }
