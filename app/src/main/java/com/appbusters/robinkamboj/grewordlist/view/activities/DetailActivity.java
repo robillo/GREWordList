@@ -1,20 +1,20 @@
 package com.appbusters.robinkamboj.grewordlist.view.activities;
 
-import android.content.Intent;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 
 public class DetailActivity extends AppCompatActivity {
 
-    private TextView word, meaing, example;
+    private TextView word, meaning, example;
     private String iWord, iMeaning, iExample;
+    private SeekBar seekBar;
 
 
     @Override
@@ -28,10 +28,30 @@ public class DetailActivity extends AppCompatActivity {
         //noinspection ConstantConditions
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        seekBar = (SeekBar) findViewById(R.id.seekbar);
         word = (TextView) findViewById(R.id.word);
-        meaing = (TextView) findViewById(R.id.meaning);
+        meaning = (TextView) findViewById(R.id.meaning);
         example = (TextView) findViewById(R.id.example);
 
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int position, boolean b) {
+                word.setTextSize(position);
+                meaning.setTextSize(position);
+                example.setTextSize(position);
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
         setValues();
     }
 
@@ -41,7 +61,7 @@ public class DetailActivity extends AppCompatActivity {
         iExample = getIntent().getStringExtra("example");
 
         word.setText(iWord);
-        meaing.setText(iMeaning);
+        meaning.setText(iMeaning);
         example.setText(iExample);
     }
 

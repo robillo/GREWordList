@@ -75,7 +75,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="10sp"
-                            android:max="27"
+                            android:max="40"
+                            android:progress="17"
                             android:id="@+id/seekbar"/>
 
                         <TextView
@@ -84,6 +85,7 @@
                             android:layout_margin="5dp"
                             android:padding="5sp"
                             android:text="WORD:"
+                            android:textColor="@color/colorAccentLight"
                             android:gravity="center"
                             android:textStyle="normal|bold" />
 
@@ -94,8 +96,9 @@
                             android:layout_margin="5dp"
                             android:layout_marginBottom="3dp"
                             android:layout_marginTop="3dp"
-                            android:fontFamily="casual"
+                            android:fontFamily="sans-serif-smallcaps"
                             android:padding="5sp"
+                            android:textSize="17sp"
                             android:textColor="#000"
                             android:text="Test Word"
                             android:gravity="center"/>
@@ -107,6 +110,7 @@
                             android:padding="5sp"
                             android:text="MEANING:"
                             android:gravity="center"
+                            android:textColor="@color/colorAccentLight"
                             android:textStyle="normal|bold" />
 
                         <TextView
@@ -117,7 +121,8 @@
                             android:layout_marginBottom="3dp"
                             android:layout_marginTop="3dp"
                             android:textColor="#000"
-                            android:fontFamily="casual"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textSize="17sp"
                             android:padding="5sp"
                             android:gravity="center"
                             android:text="Test Meaning" />
@@ -128,6 +133,7 @@
                             android:layout_margin="5dp"
                             android:padding="5sp"
                             android:text="EXAMPLE:"
+                            android:textColor="@color/colorAccentLight"
                             android:gravity="center"
                             android:textStyle="normal|bold" />
 
@@ -139,7 +145,8 @@
                             android:layout_marginBottom="3dp"
                             android:layout_marginTop="3dp"
                             android:textColor="#000"
-                            android:fontFamily="casual"
+                            android:textSize="17sp"
+                            android:fontFamily="sans-serif-smallcaps"
                             android:padding="5sp"
                             android:gravity="center"
                             android:text="Test Example" />
