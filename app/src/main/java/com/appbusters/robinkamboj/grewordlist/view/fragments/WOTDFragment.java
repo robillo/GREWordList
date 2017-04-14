@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 
@@ -20,6 +21,7 @@ public class WOTDFragment extends Fragment {
     private int index;
     private String[] words, meanings;
     private String word, meaning;
+    private TextView wordtv, meaningtv, exampletv;
 
     public WOTDFragment() {
         // Required empty public constructor
@@ -32,6 +34,10 @@ public class WOTDFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_wotd, container, false);
 
+        wordtv = (TextView) v.findViewById(R.id.word);
+        meaningtv = (TextView) v.findViewById(R.id.meaning);
+        exampletv = (TextView) v.findViewById(R.id.example);
+
         random = new Random();
         index = random.nextInt(800);
 
@@ -40,6 +46,10 @@ public class WOTDFragment extends Fragment {
 
         word = words[index];
         meaning = meanings[index];
+
+        wordtv.setText(word);
+        meaningtv.setText(meaning);
+        exampletv.setText(" ");
 
         return v;
     }
