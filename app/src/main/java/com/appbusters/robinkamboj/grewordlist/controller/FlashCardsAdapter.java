@@ -31,8 +31,8 @@ public class FlashCardsAdapter extends RecyclerView.Adapter<FlashCardsHolder>{
 
     @Override
     public void onBindViewHolder(FlashCardsHolder holder, int position) {
-//        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
-//        holder.itemView.setAnimation(animation);
+        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
+        holder.itemView.setAnimation(animation);
         holder.meaning.setText(data.get(position));
     }
 

@@ -13,14 +13,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.controller.FlashCardsAdapter;
-import com.appbusters.robinkamboj.grewordlist.model.Data;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -31,8 +32,11 @@ public class FlashCardsFragment extends Fragment {
     private FlashCardsAdapter adapter;
     private List<String> data;
     private CharSequence[] items = {"Level 1 (4 hints)", "Level 2 (8 hints)", "Level 3 (12 hints)", "Level 4 (16 hints)", "Level 5 (20 hints)"};
-    private String[] meaningsList;
+    private String[] allWords, allMeanings, meaningsList;
     private String word;
+    private TextView wordtv;
+    private Random random;
+    private int wordIndex, listSize = 4;
 
     public FlashCardsFragment() {
         // Required empty public constructor
@@ -46,12 +50,11 @@ public class FlashCardsFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_flash_cards, container, false);
         setHasOptionsMenu(true);
 
-        data = fillWithData();
-
+        wordtv = (TextView) v.findViewById(R.id.word);
         recyclerView = (RecyclerView) v.findViewById(R.id.recyclerview);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        adapter = new FlashCardsAdapter(data, getActivity());
-        recyclerView.setAdapter(adapter);
+
+        generate();
+        setRV();
 
         return v;
     }
@@ -68,7 +71,6 @@ public class FlashCardsFragment extends Fragment {
 
         switch (id){
             case R.id.flash_filter:{
-                Toast.makeText(getActivity(), "Flash Menu Filter", Toast.LENGTH_SHORT).show();
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setTitle("Choose Level:")
                         .setItems(items, new DialogInterface.OnClickListener() {
@@ -76,28 +78,33 @@ public class FlashCardsFragment extends Fragment {
                             public void onClick(DialogInterface dialogInterface, int which) {
                                 switch (which){
                                     case 0:{
-
+                                        listSize = 4;
+                                        setRV();
                                         break;
                                     }
                                     case 1:{
-
+                                        listSize = 8;
+                                        setRV();
                                         break;
                                     }
                                     case 2:{
-
+                                        listSize = 12;
+                                        setRV();
                                         break;
                                     }
                                     case 3:{
-
+                                        listSize = 16;
+                                        setRV();
                                         break;
                                     }
                                     case 4:{
-
+                                        listSize = 20;
+                                        setRV();
                                         break;
                                     }
                                 }
                             }
-                        });
+                        }).show();
                 break;
             }
         }
@@ -108,17 +115,28 @@ public class FlashCardsFragment extends Fragment {
     private List<String> fillWithData(){
         List<String> data = new ArrayList<>();
 
-        data.add("Meaning 1 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 2 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 3 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 4 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 5 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 6 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 7 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 8 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 9 That Is Supposed To Be Very Looong.");
-        data.add("Meaning 10 That Is Supposed To Be Very Looong.");
+        for(int i=0; i<listSize; i++){
+            data.add("Meaning " + i + " That Is Supposed To Be Very Looong.");
+        }
 
         return data;
+    }
+
+    private void setRV(){
+        data = fillWithData();
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        adapter = new FlashCardsAdapter(data, getActivity());
+        recyclerView.setAdapter(adapter);
+    }
+
+    private void generate(){
+        allWords = getResources().getStringArray(R.array.words);
+        allMeanings = getResources().getStringArray(R.array.meanings);
+
+        random = new Random();
+        wordIndex = random.nextInt(800);
+
+        wordtv.setText(allWords[wordIndex]);
     }
 }

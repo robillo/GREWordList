@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Word"
+            android:id="@+id/word"
             android:fontFamily="sans-serif-smallcaps"
             android:textSize="30sp"
             android:gravity="center"
