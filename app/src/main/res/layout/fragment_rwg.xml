@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="5sp"
+        android:alpha="0.9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Random Word Generator:"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="10sp"
+                android:textColor="@color/colorWhiteShade"
+                android:background="@color/colorAccent"
+                android:textStyle="bold"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:max="40"
+                android:progress="17"
+                android:id="@+id/seekbar"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingTop="5sp"
+                android:textColor="@color/colorAccent"
+                android:text="WORD:"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/word"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingBottom="5sp"
+                android:textSize="17sp"
+                android:textColor="@color/colorBlackShade"
+                android:text="Test Word"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingTop="5sp"
+                android:textColor="@color/colorAccent"
+                android:text="MEANING:"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/meaning"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorBlackShade"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingBottom="5sp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Test Meaning" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:paddingTop="5sp"
+                android:textColor="@color/colorAccent"
+                android:text="EXAMPLE:"
+                android:gravity="center"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/example"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/colorBlackShade"
+                android:fontFamily="sans-serif-smallcaps"
+                android:padding="5sp"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:text="Test Example" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
