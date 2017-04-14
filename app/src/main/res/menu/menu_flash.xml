@@ -6,7 +6,7 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_sort"
+        android:id="@+id/flash_filter"
         android:orderInCategory="101"
         android:icon="@drawable/ic_filter_list_white_24dp"
         android:title="Filter List"
