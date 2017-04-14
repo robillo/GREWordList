@@ -1,6 +1,7 @@
 package com.appbusters.robinkamboj.grewordlist.controller;
 
 import android.content.Context;
+import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -56,8 +57,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<View_Holder>{
             }
         });
 
-//        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
-//        holder.itemView.setAnimation(animation);
+        final Animation animation = AnimationUtils.loadAnimation(context, R.anim.anim);
+        holder.itemView.setAnimation(animation);
     }
 
     @Override

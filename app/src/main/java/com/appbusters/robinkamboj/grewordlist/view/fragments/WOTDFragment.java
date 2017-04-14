@@ -9,11 +9,17 @@ import android.view.ViewGroup;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 
+import java.util.Random;
+
 /**
  * WORD OF THE DAY FRAGMENT
  */
 public class WOTDFragment extends Fragment {
 
+    private Random random;
+    private int index;
+    private String[] words, meanings;
+    private String word, meaning;
 
     public WOTDFragment() {
         // Required empty public constructor
@@ -24,7 +30,18 @@ public class WOTDFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_wotd, container, false);
+        View v = inflater.inflate(R.layout.fragment_wotd, container, false);
+
+        random = new Random();
+        index = random.nextInt(800);
+
+        words = getResources().getStringArray(R.array.words);
+        meanings = getResources().getStringArray(R.array.meanings);
+
+        word = words[index];
+        meaning = meanings[index];
+
+        return v;
     }
 
 }
