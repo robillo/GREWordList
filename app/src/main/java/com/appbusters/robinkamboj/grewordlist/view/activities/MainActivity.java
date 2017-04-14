@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.FlashCardsFragment;
+import com.appbusters.robinkamboj.grewordlist.view.fragments.RWGFragment;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.WMListFragment;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.WOTDFragment;
 import com.appbusters.robinkamboj.grewordlist.view.fragments.YourBookmarksFragment;
@@ -290,6 +291,10 @@ public class MainActivity extends AppCompatActivity
                 addWMListFragment(103);
                 break;
             }
+            case R.id.rwg:{
+                addRWGFragment();
+                break;
+            }
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -454,6 +459,14 @@ public class MainActivity extends AppCompatActivity
         fragmentTransaction.commit();
     }
 
+    private void addRWGFragment(){
+        fNumber = 33;
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        RWGFragment rwgFragment = new RWGFragment();
+        fragmentTransaction.replace(R.id.fragment_container, rwgFragment);
+        fragmentTransaction.commit();
+    }
+
     private void setFragment(){
         switch (fNumber){
             case 0:{
@@ -587,6 +600,9 @@ public class MainActivity extends AppCompatActivity
             case 32:{
                 addWMListFragment(25);
                 break;
+            }
+            case 33:{
+                addRWGFragment();
             }
         }
         Log.e("DURING", "SET_FRAGMENT");

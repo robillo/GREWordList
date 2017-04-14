@@ -14,6 +14,10 @@
             android:id="@+id/flash_cards"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Flash Cards" />
+        <item
+            android:id="@+id/rwg"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Random Word Generator" />
     </group>
 
     <item android:title="Groups">

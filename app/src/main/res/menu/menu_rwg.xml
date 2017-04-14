@@ -6,9 +6,9 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item
-        android:id="@+id/action_sort"
+        android:id="@+id/refresh"
         android:orderInCategory="101"
         android:icon="@drawable/ic_refresh_white_24dp"
-        android:title="Generate New"
+        android:title="Generate New Word"
         app:showAsAction="ifRoom|collapseActionView"/>
 </menu>
