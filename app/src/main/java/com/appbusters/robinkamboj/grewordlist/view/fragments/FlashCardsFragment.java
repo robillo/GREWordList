@@ -14,7 +14,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.appbusters.robinkamboj.grewordlist.R;
 import com.appbusters.robinkamboj.grewordlist.controller.FlashCardsAdapter;
@@ -30,13 +29,13 @@ public class FlashCardsFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private FlashCardsAdapter adapter;
-    private List<String> data;
+    private List<String> meaningsList;
     private CharSequence[] items = {"Level 1 (4 hints)", "Level 2 (8 hints)", "Level 3 (12 hints)", "Level 4 (16 hints)", "Level 5 (20 hints)"};
-    private String[] allWords, allMeanings, meaningsList;
+    private String[] allWords, allMeanings;
     private String word;
     private TextView wordtv;
     private Random random;
-    private int wordIndex, listSize = 4;
+    private int wordIndex, listSize = 4, randomFromListSize;
 
     public FlashCardsFragment() {
         // Required empty public constructor
@@ -115,18 +114,25 @@ public class FlashCardsFragment extends Fragment {
     private List<String> fillWithData(){
         List<String> data = new ArrayList<>();
 
+        randomFromListSize = random.nextInt(listSize);
+
         for(int i=0; i<listSize; i++){
-            data.add("Meaning " + i + " That Is Supposed To Be Very Looong.");
+            if(i==randomFromListSize){
+                data.add(allMeanings[wordIndex]);
+            }
+            else {
+                data.add(allMeanings[random.nextInt(800)]);
+            }
         }
 
         return data;
     }
 
     private void setRV(){
-        data = fillWithData();
+        meaningsList = fillWithData();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        adapter = new FlashCardsAdapter(data, getActivity());
+        adapter = new FlashCardsAdapter(meaningsList, getActivity());
         recyclerView.setAdapter(adapter);
     }
 
