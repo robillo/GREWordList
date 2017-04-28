@@ -42,8 +42,8 @@ public class FlashCardsAdapter extends RecyclerView.Adapter<FlashCardsHolder>{
 
     private void animateView(CardView linearLayout) {
         Animator[] animators = new Animator[]{
-                DefaultAnimations.shrinkAnimator(linearLayout, 800L),
-                DefaultAnimations.fadeInAnimator(linearLayout, 800L)
+                DefaultAnimations.shrinkAnimator(linearLayout, 500L),
+                DefaultAnimations.fadeInAnimator(linearLayout, 500L)
         };
 
         LinearSort linearSort = new LinearSort(100L, false, LinearSort.Direction.TOP_TO_BOTTOM);

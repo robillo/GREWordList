@@ -1,18 +1,24 @@
 package com.appbusters.robinkamboj.grewordlist.view.fragments;
 
 
+import android.animation.Animator;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.appbusters.robinkamboj.grewordlist.R;
+import com.willowtreeapps.spruce.Spruce;
+import com.willowtreeapps.spruce.animation.DefaultAnimations;
+import com.willowtreeapps.spruce.sort.LinearSort;
 
 import java.util.Random;
 
@@ -26,6 +32,7 @@ public class RWGFragment extends Fragment {
     private String word, meaning;
     private TextView wordtv, meaningtv, exampletv;
     private SeekBar seekBar;
+    private LinearLayout spruceLayout;
 
     public RWGFragment() {
         // Required empty public constructor
@@ -42,6 +49,7 @@ public class RWGFragment extends Fragment {
         meaningtv = (TextView) v.findViewById(R.id.meaning);
         exampletv = (TextView) v.findViewById(R.id.example);
         seekBar = (SeekBar) v.findViewById(R.id.seekbar);
+        spruceLayout = (LinearLayout) v.findViewById(R.id.spruceLayout);
 
         generate();
 
@@ -89,6 +97,9 @@ public class RWGFragment extends Fragment {
     }
 
     private void generate(){
+
+        animateView(spruceLayout);
+
         random = new Random();
         index = random.nextInt(800);
 
@@ -101,5 +112,20 @@ public class RWGFragment extends Fragment {
         wordtv.setText(word);
         meaningtv.setText(meaning);
         exampletv.setText("Test Example");
+    }
+
+    private void animateView(LinearLayout linearLayout) {
+        Animator[] animators = new Animator[]{
+                DefaultAnimations.shrinkAnimator(linearLayout, 500L),
+                DefaultAnimations.fadeInAnimator(linearLayout, 500L)
+        };
+
+        LinearSort linearSort = new LinearSort(100L, false, LinearSort.Direction.TOP_TO_BOTTOM);
+
+        Animator spruceAnimator = new Spruce
+                .SpruceBuilder(linearLayout)
+                .sortWith(linearSort)
+                .animateWith(animators)
+                .start();
     }
 }
