@@ -4,7 +4,9 @@
     android:layout_margin="5sp"
     app:cardElevation="3sp"
     android:layout_height="wrap_content"
-    android:layout_width="match_parent">
+    android:layout_width="match_parent"
+    android:id="@+id/cardView"
+    app:cardBackgroundColor="@color/colorWhiteShade">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

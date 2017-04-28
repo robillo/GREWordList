@@ -2,6 +2,7 @@ package com.appbusters.robinkamboj.grewordlist.model;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageButton;
@@ -17,6 +18,7 @@ public class View_Holder extends RecyclerView.ViewHolder implements View.OnClick
     public ImageButton bookmark;
     private ItemClickListener clickListener;
     private Context context;
+    public CardView cardView;
 
     public View_Holder(View itemView) {
         super(itemView);
@@ -25,6 +27,7 @@ public class View_Holder extends RecyclerView.ViewHolder implements View.OnClick
         word = (TextView) itemView.findViewById(R.id.word);
         meaning = (TextView) itemView.findViewById(R.id.meaning);
         bookmark = (ImageButton) itemView.findViewById(R.id.bookmark);
+        cardView = (CardView) itemView.findViewById(R.id.cardView);
 
         itemView.setOnClickListener(this);
         itemView.setOnLongClickListener(this);
